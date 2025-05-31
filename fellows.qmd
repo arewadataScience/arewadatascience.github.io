@@ -1,66 +1,104 @@
 ---
-pagetitle: "ArewaDS | Fellows"
+pagetitle: "Fellows | Arewa Data Science"
 toc: false
-execute: 
-  echo: false
-  freeze: auto
-listing:
-  # - id: research-staff
-  #   contents: "people/staff/*.qmd"
-  #   type: grid
-  #   image-height: 350px
-  #   grid-columns: 3
-  #   fields: [image, title, subtitle]
-  #   grid-item-align: center
-  #   sort: sortby
-  #   field-display-names: 
-  #     started: "Started"
-  #- id: Fellows
-   # contents: "people/ras/*.qmd"
-  #  type: grid
-   # image-height: 225px
-  #  grid-columns: 3
-   # sort: sortby
-    #fields: [image, title, subtitle, started]
-    #field-display-names: 
-     # started: "Started"
-    #grid-item-align: center
-   - id: Fellows
-     contents: "people/fellows/*.qmd"
-     type: table
-     sort: completed
-     fields: [title, subtitle, state, completed]
-     sort-ui: [title, subtitle, state, completed]
-     filter-ui: [title, subtitle, state, completed]
-     field-display-names: 
-       title: "Name"
-       subtitle: "Current or most previous institution"
-       state: "States"
-       completed: "🎓"
-     table-hover: true
+email-obfuscation: javascript
+format: html
+engine: knitr
 ---
-<!-- 
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
 ```{=html}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">People</li>
+    <li class="breadcrumb-item active" aria-current="page">Fellows</li>
   </ol>
 </nav>
-``` -->
+```
 
-<!-- 
-## Arewa DataScience Fellows
+::: {.justify}
 
-:::{#Fellows}
-::: -->
+## Machine Learning
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+  <div class="col">
+    <a href="./fellows-ml-1.html" class="card-link">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title">
+            Cohort 1
+          </h5>
+          <p class="card-text">
+            Graduated 2022 &mdash; Supervised learning foundations.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <a href="./fellows-ml-2.html" class="card-link">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title">
+            Cohort 2
+          </h5>
+          <p class="card-text">
+            Graduated 2022 &mdash; Supervised learning foundations.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <a href="./fellows-ml-3.html" class="card-link">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title">
+            Cohort 3
+          </h5>
+          <p class="card-text">
+            Graduated 2022 &mdash; Supervised learning foundations.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
 
-<!-- ## Research Assistants
+## Deep Learning
 
-:::{#research-assistants}
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+  <div class="col">
+    <a href="./fellows-dl-1.html" class="card-link">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title">
+            Cohort 1
+          </h5>
+          <p class="card-text">
+            Graduated 2022 &mdash; Supervised learning foundations.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <a href="./fellows-dl-2.html" class="card-link">
+      <div class="card h-100 border-primary">
+        <div class="card-body">
+          <h5 class="card-title">
+            Cohort 2
+          </h5>
+          <p class="card-text">
+            Graduated 2022 &mdash; Supervised learning foundations.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
 :::
-
-## Alumni
-
-:::{#alumni}
-::: -->

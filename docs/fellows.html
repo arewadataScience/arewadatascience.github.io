@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ArewaDS | Fellows – ArewaDS FellowShip</title>
+<title>Fellows | Arewa Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -49,13 +47,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -64,42 +56,11 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-Fellows .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-state','listing-completed',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
-      page: 30,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-subtitle","listing-state","listing-completed"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-Fellows'] = new List('listing-Fellows', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-M701ZTGPSE"></script>
 
 <script type="text/javascript">
@@ -111,43 +72,14 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="assets/ek-styles.css">
-<meta property="og:title" content="ArewaDS | Fellows">
-<meta property="og:site_name" content="ArewaDS FellowShip">
+<meta property="og:title" content="Fellows | Arewa Data Science">
+<meta property="og:site-name" content="ArewaDS FellowShip">
 <meta property="og:image:height" content="500">
 <meta property="og:image:width" content="500">
 <meta property="og:locale" content="en-GB">
-<meta name="twitter:title" content="ArewaDS | Fellows">
+<meta name="twitter:title" content="Fellows | Arewa Data Science">
 <meta name="twitter:creator" content="@shmuhammadd">
 <meta name="twitter:site" content="@shmuhammadd">
 <meta name="twitter:card" content="summary">
@@ -157,101 +89,86 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
+      <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Arewa DataScience Academy</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">about</span></a>
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Courses</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-courses">    
         <li>
-    <a class="dropdown-item" href="https://github.com/arewadataScience/30-Days-of-Python">
+    <a class="dropdown-item" href="https://github.com/arewadataScience/30-Days-of-Python" rel="" target="">
  <span class="dropdown-text">30 Days of Python</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Machine-Learning">
+    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Machine-Learning" rel="" target="">
  <span class="dropdown-text">Machine Learning</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Deep-Learning">
+    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Deep-Learning" rel="" target="">
  <span class="dropdown-text">Deep Learning</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Kaggle-Challenge">
+    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Kaggle-Challenge" rel="" target="">
  <span class="dropdown-text">Kaggle Challenge</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./mentors.html"> 
-<span class="menu-text">Mentors</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-fellows" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Fellows</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-fellows">    
-        <li>
-    <a class="dropdown-item" href="./fellows.html">
- <span class="dropdown-text">Cohort 1</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./fellows-dl-1.html">
- <span class="dropdown-text">Cohort DL-1</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./fellows-ml-2.html">
- <span class="dropdown-text">Cohort ML-2</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./mentors.html" rel="" target="">
+ <span class="menu-text">Mentors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
-<span class="menu-text">posts</span></a>
+    <a class="nav-link active" href="./fellows.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Fellows</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">contact</span></a>
+    <a class="nav-link" href="./projects.html" rel="" target="">
+ <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./posts.html" rel="" target="">
+ <span class="menu-text">posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html" rel="" target="">
+ <span class="menu-text">contact</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/arewadataScience"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/arewadataScience" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./index.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/arewadatasc"> <i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/arewadatasc" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -260,6 +177,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
+
 <style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1691048");</style>
     <style type="text/css">
     /* LOADER */
@@ -1147,942 +1065,105 @@ window.Quarto = {
 
 
 
-
-<!-- 
-
+<div class="cell">
+<style type="text/css">
+.justify {
+  text-align: justify !important
+}
+</style>
+</div>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">People</li>
+    <li class="breadcrumb-item active" aria-current="page">Fellows</li>
   </ol>
 </nav>
-``` -->
-<!-- 
-## Arewa DataScience Fellows
-
-:::{#Fellows}
-::: -->
-<!-- ## Research Assistants
-
-:::{#research-assistants}
-:::
-
-## Alumni
-
-:::{#alumni}
-::: -->
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-Fellows">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-Fellows-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Fellows'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Name
-        </option>
-         <option value="listing-subtitle" data-direction="asc">
-          Current or most previous institution
-        </option>
-         <option value="listing-state" data-direction="asc">
-          States
-        </option>
-         <option value="listing-completed" data-direction="asc">
-          🎓
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="justify">
+<section id="machine-learning" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning">Machine Learning</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+<div class="col">
+<pre><code>&lt;a href="./fellows-ml-1.html" class="card-link"&gt;
+  &lt;div class="card h-100 border-primary"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;h5 class="card-title"&gt;
+        Cohort 1
+      &lt;/h5&gt;
+      &lt;p class="card-text"&gt;
+        Graduated 2022 &amp;mdash; Supervised learning foundations.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;</code></pre>
 </div>
-<table class="quarto-listing-table table table-hover">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Current or most previous institution</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-state" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">States</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-completed" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">🎓</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Abdulkarim Muhammad Baba" data-listing-filename-sort="abdulkarim_muhammad_baba.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/abdulkarim_muhammad_baba.html" class="title listing-title">Abdulkarim Muhammad Baba</a>
-</td>
-<td>
-<span class="listing-subtitle">Self-employed</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Lurwanu Abdullahi" data-listing-filename-sort="abdullahi_lurwanu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/abdullahi_lurwanu.html" class="title listing-title">Lurwanu Abdullahi</a>
-</td>
-<td>
-<span class="listing-subtitle">Self-employed</span>
-</td>
-<td>
-<span class="listing-state">Katsina</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Abdulrahaman Yusuf" data-listing-filename-sort="abdulrahaman_yusuf.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/abdulrahaman_yusuf.html" class="title listing-title">Abdulrahaman Yusuf</a>
-</td>
-<td>
-<span class="listing-subtitle">N/A</span>
-</td>
-<td>
-<span class="listing-state">N/A</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Abubakar Labaran Salisu" data-listing-filename-sort="abubakar_labaran_salisu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/abubakar_labaran_salisu.html" class="title listing-title">Abubakar Labaran Salisu</a>
-</td>
-<td>
-<span class="listing-subtitle">Scientist</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Alamin Musa Magaga" data-listing-filename-sort="alamin_musa_magaga.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/alamin_musa_magaga.html" class="title listing-title">Alamin Musa Magaga</a>
-</td>
-<td>
-<span class="listing-subtitle">Student</span>
-</td>
-<td>
-<span class="listing-state">Kaduna</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Abubakar Aliyu" data-listing-filename-sort="aliyu_abubakar.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/aliyu_abubakar.html" class="title listing-title">Abubakar Aliyu</a>
-</td>
-<td>
-<span class="listing-subtitle">Nigerian Computer Society</span>
-</td>
-<td>
-<span class="listing-state">Bauchi</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Aminu Hamza Nababa" data-listing-filename-sort="aminu_hamza_nababa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/aminu_hamza_nababa.html" class="title listing-title">Aminu Hamza Nababa</a>
-</td>
-<td>
-<span class="listing-subtitle">N/A</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="7" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Auwal Abubakar Khalid" data-listing-filename-sort="auwal_abubakar_khalid.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/auwal_abubakar_khalid.html" class="title listing-title">Auwal Abubakar Khalid</a>
-</td>
-<td>
-<span class="listing-subtitle">Student</span>
-</td>
-<td>
-<span class="listing-state">Zamfara</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="8" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Auwal Auwal Sulaiman" data-listing-filename-sort="auwal_auwal_sulaiman.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/auwal_auwal_sulaiman.html" class="title listing-title">Auwal Auwal Sulaiman</a>
-</td>
-<td>
-<span class="listing-subtitle">National Association Of Computer Science Student</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="9" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Babangida Sani" data-listing-filename-sort="babangida_sani.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/babangida_sani.html" class="title listing-title">Babangida Sani</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayero University Kano</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="10" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Bala Mairiga Abduljalil" data-listing-filename-sort="bala_mairiga_abduljalil.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/bala_mairiga_abduljalil.html" class="title listing-title">Bala Mairiga Abduljalil</a>
-</td>
-<td>
-<span class="listing-subtitle">University Of Maiduguri</span>
-</td>
-<td>
-<span class="listing-state">Taraba</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="11" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Faisal Muhammad Adam" data-listing-filename-sort="faisal_muhammad_adam.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/faisal_muhammad_adam.html" class="title listing-title">Faisal Muhammad Adam</a>
-</td>
-<td>
-<span class="listing-subtitle">UTAMU</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="12" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Faridah Yusuf Musa" data-listing-filename-sort="faridah_yusuf_musa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/faridah_yusuf_musa.html" class="title listing-title">Faridah Yusuf Musa</a>
-</td>
-<td>
-<span class="listing-subtitle">Self-employed</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="13" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Faruk Hussain Abdullahi" data-listing-filename-sort="faruk_hussain_abdullahi.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/faruk_hussain_abdullahi.html" class="title listing-title">Faruk Hussain Abdullahi</a>
-</td>
-<td>
-<span class="listing-subtitle">Student</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="14" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Fatima Muhammad Adam" data-listing-filename-sort="fatima_muhammad_adam.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/fatima_muhammad_adam.html" class="title listing-title">Fatima Muhammad Adam</a>
-</td>
-<td>
-<span class="listing-subtitle">N/A</span>
-</td>
-<td>
-<span class="listing-state">Jigawa</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="15" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Hamzah Mahmud" data-listing-filename-sort="hamzah_mahmud.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/hamzah_mahmud.html" class="title listing-title">Hamzah Mahmud</a>
-</td>
-<td>
-<span class="listing-subtitle">Federal University Dutse</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="16" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Hassan Muhammad Adam" data-listing-filename-sort="hassan_muhammad_adam.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/hassan_muhammad_adam.html" class="title listing-title">Hassan Muhammad Adam</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayero University Kano</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="17" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Ibrahim Sufiyanu" data-listing-filename-sort="ibrahim_sufiyanu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/ibrahim_sufiyanu.html" class="title listing-title">Ibrahim Sufiyanu</a>
-</td>
-<td>
-<span class="listing-subtitle">Self-employed</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="18" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Ishaq Hassan" data-listing-filename-sort="ishaq_hassan.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/ishaq_hassan.html" class="title listing-title">Ishaq Hassan</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayero University Kano</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="19" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Lukman Aliyu Jibril" data-listing-filename-sort="lukman_aliyu_jibril.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/lukman_aliyu_jibril.html" class="title listing-title">Lukman Aliyu Jibril</a>
-</td>
-<td>
-<span class="listing-subtitle">Zipline, Nigeria. </span>
-</td>
-<td>
-<span class="listing-state">Kaduna</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="20" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Mahmud Mahmud Ibrahim" data-listing-filename-sort="mahmud_mahmud_ibrahim.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/mahmud_mahmud_ibrahim.html" class="title listing-title">Mahmud Mahmud Ibrahim</a>
-</td>
-<td>
-<span class="listing-subtitle">Self-employed</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="21" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Maryam Sabo Abubakar" data-listing-filename-sort="maryam_sabo_abubakar.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/maryam_sabo_abubakar.html" class="title listing-title">Maryam Sabo Abubakar</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayero University Kano</span>
-</td>
-<td>
-<span class="listing-state">Jigawa</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="22" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Mohammed Nasiru" data-listing-filename-sort="mohammed_nasiru.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/mohammed_nasiru.html" class="title listing-title">Mohammed Nasiru</a>
-</td>
-<td>
-<span class="listing-subtitle">Ahmadu Bello University, Zaria</span>
-</td>
-<td>
-<span class="listing-state">Kogi</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="23" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Mubarak Daha Isa" data-listing-filename-sort="mubarak_daha_isa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/mubarak_daha_isa.html" class="title listing-title">Mubarak Daha Isa</a>
-</td>
-<td>
-<span class="listing-subtitle">Bridge Connect Africa Initiative</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="24" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Muhammad Ibrahim Isah" data-listing-filename-sort="muhammad_ibrahim_isah.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/muhammad_ibrahim_isah.html" class="title listing-title">Muhammad Ibrahim Isah</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayero University Kano</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="25" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Rufa'i Ibrahim Dikko" data-listing-filename-sort="rufai_ibrahim_dikko.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/rufai_ibrahim_dikko.html" class="title listing-title">Rufa’i Ibrahim Dikko</a>
-</td>
-<td>
-<span class="listing-subtitle">Steadfast Tech. Limited, Kano.</span>
-</td>
-<td>
-<span class="listing-state">Kaduna</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="26" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Sani Umar Muhammad" data-listing-filename-sort="sani_umar_muhammad.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/sani_umar_muhammad.html" class="title listing-title">Sani Umar Muhammad</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayero University Kano</span>
-</td>
-<td>
-<span class="listing-state">Adamawa</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="27" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Tanimu Abdullahi" data-listing-filename-sort="tanimu_abdullahi.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/tanimu_abdullahi.html" class="title listing-title">Tanimu Abdullahi</a>
-</td>
-<td>
-<span class="listing-subtitle">Civil Servant</span>
-</td>
-<td>
-<span class="listing-state">Jigawa</span>
-</td>
-<td>
-<span class="listing-completed">✅</span>
-</td>
-</tr>
-<tr data-index="28" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Abdulkadir Abubakar Abubakar" data-listing-filename-sort="1.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/1.html" class="title listing-title">Abdulkadir Abubakar Abubakar</a>
-</td>
-<td>
-<span class="listing-subtitle">Pm4success International</span>
-</td>
-<td>
-<span class="listing-state">Kebbi</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="29" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Adamu Ibrahim" data-listing-filename-sort="11.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/11.html" class="title listing-title">Adamu Ibrahim</a>
-</td>
-<td>
-<span class="listing-subtitle">Federal Fire Service</span>
-</td>
-<td>
-<span class="listing-state">Bauchi</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="30" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Deborah Temitope Ajah" data-listing-filename-sort="12.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/12.html" class="title listing-title">Deborah Temitope Ajah</a>
-</td>
-<td>
-<span class="listing-subtitle">Data School Abuja</span>
-</td>
-<td>
-<span class="listing-state">Cross River</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="31" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Mahmud Hamzah" data-listing-filename-sort="15.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/15.html" class="title listing-title">Mahmud Hamzah</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayero University Kano</span>
-</td>
-<td>
-<span class="listing-state">Yobe</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="32" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Ahmed Danjuma Haruna" data-listing-filename-sort="17.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/17.html" class="title listing-title">Ahmed Danjuma Haruna</a>
-</td>
-<td>
-<span class="listing-subtitle">DeepLearning.AI</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="33" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Munzali Alhassan" data-listing-filename-sort="19.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/19.html" class="title listing-title">Munzali Alhassan</a>
-</td>
-<td>
-<span class="listing-subtitle">Self-employed</span>
-</td>
-<td>
-<span class="listing-state">Jigawa</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="34" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Joshua Samuel Baba" data-listing-filename-sort="2.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/2.html" class="title listing-title">Joshua Samuel Baba</a>
-</td>
-<td>
-<span class="listing-subtitle">International Association of Engineers</span>
-</td>
-<td>
-<span class="listing-state">Kaduna</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="35" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Alhussain Abdullahi" data-listing-filename-sort="20.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/20.html" class="title listing-title">Alhussain Abdullahi</a>
-</td>
-<td>
-<span class="listing-subtitle">Sustainable Development Solutions Network (SDSN)</span>
-</td>
-<td>
-<span class="listing-state">Kaduna</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="36" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Muhammed Kabila Musa" data-listing-filename-sort="25.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/25.html" class="title listing-title">Muhammed Kabila Musa</a>
-</td>
-<td>
-<span class="listing-subtitle">Central South University, China</span>
-</td>
-<td>
-<span class="listing-state">Benue</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="37" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Al'amin Ahmad Muhammad" data-listing-filename-sort="29.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/29.html" class="title listing-title">Al’amin Ahmad Muhammad</a>
-</td>
-<td>
-<span class="listing-subtitle">Alumni EquiTech Futures</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="38" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Umar Sani Muhammad" data-listing-filename-sort="30.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/30.html" class="title listing-title">Umar Sani Muhammad</a>
-</td>
-<td>
-<span class="listing-subtitle">Self-employed</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="39" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Habila Akolo Alaku" data-listing-filename-sort="31.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/31.html" class="title listing-title">Habila Akolo Alaku</a>
-</td>
-<td>
-<span class="listing-subtitle">Federal University Lafia</span>
-</td>
-<td>
-<span class="listing-state">Nasarawa</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="40" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Nur Bala Rabiu" data-listing-filename-sort="34.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/34.html" class="title listing-title">Nur Bala Rabiu</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayero University Kano</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="41" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Rahma Aliyu Yusuf" data-listing-filename-sort="35.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/35.html" class="title listing-title">Rahma Aliyu Yusuf</a>
-</td>
-<td>
-<span class="listing-subtitle">Actelion consulting</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="42" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Musa Mohammed" data-listing-filename-sort="36.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/36.html" class="title listing-title">Musa Mohammed</a>
-</td>
-<td>
-<span class="listing-subtitle">Abubakar Tafawa Balewa University, Bauchi</span>
-</td>
-<td>
-<span class="listing-state">Yobe</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="43" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Sufiyanu Ibrahim" data-listing-filename-sort="37.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/37.html" class="title listing-title">Sufiyanu Ibrahim</a>
-</td>
-<td>
-<span class="listing-subtitle">Ahmadu Bello University, Zaria</span>
-</td>
-<td>
-<span class="listing-state">Katsina</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="44" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Bello Abdullahi" data-listing-filename-sort="4.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/4.html" class="title listing-title">Bello Abdullahi</a>
-</td>
-<td>
-<span class="listing-subtitle">Intern/Corp Member</span>
-</td>
-<td>
-<span class="listing-state">Abuja</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="45" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Mahmoud Said Ahmad" data-listing-filename-sort="41.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/41.html" class="title listing-title">Mahmoud Said Ahmad</a>
-</td>
-<td>
-<span class="listing-subtitle">HausaNLP Research Group Intern</span>
-</td>
-<td>
-<span class="listing-state">Jigawa</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="46" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Zara'u Baidu" data-listing-filename-sort="42.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/42.html" class="title listing-title">Zara’u Baidu</a>
-</td>
-<td>
-<span class="listing-subtitle">NYSC</span>
-</td>
-<td>
-<span class="listing-state">Kebbi</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="47" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Ismaila Khamis" data-listing-filename-sort="45.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/45.html" class="title listing-title">Ismaila Khamis</a>
-</td>
-<td>
-<span class="listing-subtitle">Valuable</span>
-</td>
-<td>
-<span class="listing-state">Taraba</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="48" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Abubakar Mahmud" data-listing-filename-sort="46.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/46.html" class="title listing-title">Abubakar Mahmud</a>
-</td>
-<td>
-<span class="listing-subtitle">Self-employed</span>
-</td>
-<td>
-<span class="listing-state">Jigawa</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="49" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Rufai Zakari Yusuf" data-listing-filename-sort="48.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/48.html" class="title listing-title">Rufai Zakari Yusuf</a>
-</td>
-<td>
-<span class="listing-subtitle">Universiti Brunei Darussalam</span>
-</td>
-<td>
-<span class="listing-state">Kano</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="50" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Zainab Abdulfattah" data-listing-filename-sort="5.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/5.html" class="title listing-title">Zainab Abdulfattah</a>
-</td>
-<td>
-<span class="listing-subtitle">Student</span>
-</td>
-<td>
-<span class="listing-state">Gombe</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="51" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Hassan Adamu" data-listing-filename-sort="50.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/50.html" class="title listing-title">Hassan Adamu</a>
-</td>
-<td>
-<span class="listing-subtitle">Binyaminu Usman Polytechnic, Hadejia</span>
-</td>
-<td>
-<span class="listing-state">Jigawa</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="52" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Umar Abdulkadir" data-listing-filename-sort="51.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/51.html" class="title listing-title">Umar Abdulkadir</a>
-</td>
-<td>
-<span class="listing-subtitle">Self-employed</span>
-</td>
-<td>
-<span class="listing-state">Katsina</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="53" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Zahra'u Bello Baidu" data-listing-filename-sort="53.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/53.html" class="title listing-title">Zahra’u Bello Baidu</a>
-</td>
-<td>
-<span class="listing-subtitle">NYSC</span>
-</td>
-<td>
-<span class="listing-state">Kebbi</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="54" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Auwal Abdullahi" data-listing-filename-sort="55.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/55.html" class="title listing-title">Auwal Abdullahi</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayero University Kano</span>
-</td>
-<td>
-<span class="listing-state">Adamawa</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="55" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Abdulrazak Auwal" data-listing-filename-sort="7.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/7.html" class="title listing-title">Abdulrazak Auwal</a>
-</td>
-<td>
-<span class="listing-subtitle">Ahmadu Bello University, Zaria</span>
-</td>
-<td>
-<span class="listing-state">Bauchi</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-<tr data-index="56" data-listing-file-modified-sort="1722803339211" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Hassan Sani" data-listing-filename-sort="8.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./people/fellows/8.html" class="title listing-title">Hassan Sani</a>
-</td>
-<td>
-<span class="listing-subtitle">Student</span>
-</td>
-<td>
-<span class="listing-state">Zamfara</span>
-</td>
-<td>
-<span class="listing-completed">❌</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<div class="col">
+<pre><code>&lt;a href="./fellows-ml-2.html" class="card-link"&gt;
+  &lt;div class="card h-100 border-primary"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;h5 class="card-title"&gt;
+        Cohort 2
+      &lt;/h5&gt;
+      &lt;p class="card-text"&gt;
+        Graduated 2022 &amp;mdash; Supervised learning foundations.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;</code></pre>
 </div>
-<nav id="Fellows-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
-</div></main> <!-- /main -->
+<div class="col">
+<pre><code>&lt;a href="./fellows-ml-3.html" class="card-link"&gt;
+  &lt;div class="card h-100 border-primary"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;h5 class="card-title"&gt;
+        Cohort 3
+      &lt;/h5&gt;
+      &lt;p class="card-text"&gt;
+        Graduated 2022 &amp;mdash; Supervised learning foundations.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;</code></pre>
+</div>
+</div>
+</section>
+<section id="deep-learning" class="level2">
+<h2 class="anchored" data-anchor-id="deep-learning">Deep Learning</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+<div class="col">
+<pre><code>&lt;a href="./fellows-dl-1.html" class="card-link"&gt;
+  &lt;div class="card h-100 border-primary"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;h5 class="card-title"&gt;
+        Cohort 1
+      &lt;/h5&gt;
+      &lt;p class="card-text"&gt;
+        Graduated 2022 &amp;mdash; Supervised learning foundations.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;</code></pre>
+</div>
+<div class="col">
+<pre><code>&lt;a href="./fellows-dl-2.html" class="card-link"&gt;
+  &lt;div class="card h-100 border-primary"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;h5 class="card-title"&gt;
+        Cohort 2
+      &lt;/h5&gt;
+      &lt;p class="card-text"&gt;
+        Graduated 2022 &amp;mdash; Supervised learning foundations.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;</code></pre>
+</div>
+</div>
+</section>
+</div>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -2124,33 +1205,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -2219,15 +1273,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  let localAlternateSentinel = 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -2262,7 +1314,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -2294,55 +1357,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/arewadatascience\.github\.io");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -2352,17 +1371,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -2374,130 +1384,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
+      return note.innerHTML;
     });
   }
       let selectedAnnoteEl;
@@ -2541,7 +1428,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -2567,32 +1453,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -2650,10 +1510,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/arewadatascience\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
-
 
 
 

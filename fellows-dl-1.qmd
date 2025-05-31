@@ -26,7 +26,7 @@ listing:
      # started: "Started"
     #grid-item-align: center
    - id: Fellows
-     contents: "people/fellows-dl-1/*.qmd"
+     contents: "people/fellows/dl-1/*.qmd"
      type: table
      sort: sortby
      fields: [title, subtitle, state, completed]

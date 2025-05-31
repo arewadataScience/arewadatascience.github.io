@@ -36,13 +36,14 @@ website:
       - text: Mentors
         href: mentors.qmd
       - text: Fellows
-        menu:
-          - text: Cohort 1
-            href: fellows.qmd
-          - text: Cohort DL-1
-            href: fellows-dl-1.qmd
-          - text: Cohort ML-2
-            href: fellows-ml-2.qmd
+        href: fellows.qmd
+        # menu:
+        #   - text: Cohort 1
+        #     href: fellows.qmd
+        #   - text: Cohort DL-1
+        #     href: fellows-dl-1.qmd
+        #   - text: Cohort ML-2
+        #     href: fellows-ml-2.qmd
       - text: Projects
         href: projects.qmd
       - text: posts
