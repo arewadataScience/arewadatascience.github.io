@@ -62,9 +62,6 @@ share:
 <!-- ![](/images/arewads.jpg){.lightbox}{.profile-pic fig-align="center" width="70%"} -->
 
 
-<!-- {.profile-pic fig-alt="Headshot of Ella Kaye, a woman of around 40 with short brown hair looking slightly off-camera and smiling" fig-align="center" width="100%"} -->
-
-
 <!-- 
 - <span style="color: blue;">Application to join ArewaDS is cloed. To join our Telegram group, kindly click on this <a href="https://t.me/+vGZvQdggp1A4NzNk" style="color: blue;">link</a>!</span>
 <!-- - <span style="color: blue;">For Data Science and Machine Learning, Apply <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYJBERpEM7bkO3aI8SG0CuJuKNedKfxP6crQeyh555pU4Lhg/viewform" style="color: blue;">here</a>!</span>
