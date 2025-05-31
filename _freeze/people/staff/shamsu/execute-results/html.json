@@ -1,0 +1,16 @@
+{
+  "hash": "4277c4444b3a50adf021189df76cad6e",
+  "result": {
+    "markdown": "---\ntitle: \"Shamsuddeen H. Muhammad\"\nsortby: \"2\"\nsubtitle: \"Lecturer in CS/PhD candidate\"\nimage: shamsu.jpg\ntoc: false\nresources: \n  - \"gray_cv.pdf\"\nstarted: \"Fall 2022\"\nended: \"Current\"\nabout:\n  id: person-profile\n  template: jolla\n  links:\n    - icon: link\n      text: website\n      href: https://shmuhammadd.github.io\n    - icon: mortarboard\n      text: scholar\n      href: https://scholar.google.nl/citations?hl=en&user=Ne1nt4gAAAAJ\n    - icon: github\n      text: github\n      href: https://github.com/shmuhammad2004\n    - icon: twitter\n      text: twitter\n      href: https://twitter.com/Shmuhammadd?lang=en\n    - icon: linkedin\n      text: linkedin\n      href: https://www.linkedin.com/in/shmuhammad/\nformat: html\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n```{=html}\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"../../index.html\">Home</a></li>\n    <li class=\"breadcrumb-item\"><a href=\"../../mentors.html\">Mentors</a></li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">{{< meta title >}}</li>\n  </ol>\n</nav>\n```\n\n\n:::{#person-profile}\n:::\n\n\n::: {.justify}\n\n## Biography\n\nShamsuddeen is a Founder of Arewa Data Science Academy (ADSA) and Co-founder of [HausaNLP](https://hausanlp.github.io). He is a faculty member at the Faculty of Computer Science at Bayero University in Kano, Nigeria.\n\nCurrently, shamsuddeen is a PhD candidate at the University of Porto in Portugal. His research interests focus on Natural Language Processing for Low-resource languages, Sentiment Analysis, and Deep Learning. He received his Master's degree from the University of Manchester in the UK and a Bachelor's degree from Bayero University in Kano, Nigeria.  \n\n:::",
+    "supporting": [
+      "shamsu_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

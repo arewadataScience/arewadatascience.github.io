@@ -1,0 +1,14 @@
+{
+  "hash": "cc645506f6049879b3212e967f95aeb8",
+  "result": {
+    "markdown": "---\ntitle: Arewa Data Science Fellowship\ndescription: |\n  Application for the ArewaDS Fellowship 2023 is Open and closes on 8 January\ndate: 2023-01-01\nauthor: \n  - name: Shamsuddeen Muhammad\n  #  url: https://fosstodon.org/@ellakaye\n#site-url: https://ellakaye.co.uk\n#image: IMAGE.png\n#image-alt: |\ncategories:\n  - News\n  - ArewaDS\nopen-graph: true\ntwitter-card: true\n# will inherit title, description, image\n# to change ANYTHING about card, need to fill in EVERYTHING below\n#  title: |\n#  description: |\n#  image: |\n#  image-alt: |\n#  defaults to 500 x 500 summary: uncomment lines below for large card\n#  image-width: 600 \n#  image-height: 314\n#  card-style: summary_large_image \n#  image-width: 500\n#  image-height: 500\n#  card-style: summary\ndraft: false\nformat: html\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n\n::: {.justify}\n\n# ArewaDS Application is Open ::: {.justify}\n\n\nThe Arewa Data Science Fellowship application is open.\nThe Arewa Data Science fellowship (ADSF) provides an opportunity to learn from data scientists and machine learning experts. The fellowship is a 16-week-long free training that provides a hands-on approach to data science, machine learning and deep learning. \n\nThe skills and knowledge acquired during the fellowship will help participants pursue careers in data science, machine learning and research. Our goal is to inspire the next generation of researchers in the North and provide them with the tools they need to be successful. \nThe ADSF fellowship provides support with a monthly stipend during the program. \n\nApplications will be judged based on the strength of the motivation of the applicant, academic record, and scholarly potential.\n\nApplication is now closed !\n\n\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

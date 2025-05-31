@@ -1,0 +1,16 @@
+{
+  "hash": "728efabe8a3dec8ee429715dbd2ba2f4",
+  "result": {
+    "markdown": "---\ntitle: Arewa Data Science Academy Announces Successful Applicants\ndescription: |\n  Announcing the Arewa Data Science Fellowship Cohort Selections\ndate: 2023-10-20\nauthor: \n  - name: Lukman Aliyu\n  #  url: https://fosstodon.org/@ellakaye\n#site-url: https://ellakaye.co.uk\n#image: IMAGE.png\n#image-alt: |\ncategories:\n  - News\n  - ArewaDS\n  - Mentor\nopen-graph: true\ntwitter-card: true\n# will inherit title, description, image\n# to change ANYTHING about card, need to fill in EVERYTHING below\n#  title: |\n#  description: |\n#  image: |\n#  image-alt: |\n#  defaults to 500 x 500 summary: uncomment lines below for large card\n#  image-width: 600 \n#  image-height: 314\n#  card-style: summary_large_image \n#  image-width: 500\n#  image-height: 500\n#  card-style: summary\ndraft: false\nformat: html\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n\n::: {.justify}\n\n# Announcing the Arewa Data Science Fellowship Cohort Selections {.justify}\n\n\n## Second Cohort of Machine Learning Fellowship\n\nWe are thrilled to announce that 81 dedicated learners have been chosen for the second cohort of the Arewa Data Science Fellowship - a prestigious four-month program focusing on machine learning. Throughout the fellowship, fellows are immersed in an intensive data science curriculum anchored on real-world projects and guided mentorship. The objective extends beyond mere knowledge acquisition, as they are also educated about the nuances of research and broader learning.\n\n- Gender: Out of the total, 67 fellows are male, and 14 are female.\n- Education: The majority are Bachelor's degree holders, with some pursuing or holding Master's or PhD degrees.\n- Geographic Spread: Fellows hail from various states across our nation, and some are even currently based abroad.\n- Alma Mater Spotlight: The top three universities from which our fellows have graduated or currently studying in are Bayero University Kano (BUK), Ahmadu Bello University (ABU) in Zaria, and Yusuf Maitama Sule University in Kano.\n- Tech Skills: Approximately 45% of the fellows have experience with the Python programming language, while a segment of them are newcomers to programming.\nWe believe that this fellowship will serve as a stepping stone for these bright minds, enabling them to evolve into pioneers and researchers in the data science domain.\n\n## Deep Learning with PyTorch Fellowship\n\nWe are equally excited to introduce 19 adept individuals who have been enrolled in the inaugural cohort of the Deep Learning with PyTorch Fellowship under the Arewa Data Science Academy. Interestingly, many of them are alumni from our first data science fellowship cohort, showcasing the continuous learning spirit.\n\nThis growth and eagerness to learn underscore the dynamic evolution of the Arewa Data Science community. A heartfelt congratulations to all the selected fellows on this remarkable achievement! Your journey ahead promises to be enlightening and transformative.\n\n\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

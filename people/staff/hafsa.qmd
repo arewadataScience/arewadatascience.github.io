@@ -1,0 +1,54 @@
+---
+title: "Hafsa Kabir Ahmad"
+sortby: "8"
+subtitle: "Lecturer in CS/PhD candidate"
+image: hafsa.jpg
+started: "Fall 2020"
+toc: false
+draft: true
+resources: 
+  - "girard_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+  
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.com/citations?user=ekmjTNQAAAAJ&hl=en
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/hafsa-kabir-ahmad-6230311a7
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../mentors.html">Mentors</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+::: {.justify}
+
+## Biography
+I am Currently pursuing a Ph.D. degree in computer science at Shaanxi Normal University, China. 
+
+Current research interests include Network Science, Network Representation learning and Recommender Systems in online education.
+
+I am a public speaker.
+:::

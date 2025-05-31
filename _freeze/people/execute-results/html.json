@@ -1,0 +1,16 @@
+{
+  "hash": "06e893ecad4c0618b05ceaa6ae601246",
+  "result": {
+    "markdown": "---\n# title: ELLA KAYE\n# image: images/profile.jpeg\n# about:\n#   template: jolla\n#   image-shape: rounded\n#   links:\n#     - icon: twitter\n#       text: Twitter\n#       href: https://twitter.com/ellamkaye\n#     - icon: github\n#       text: Github\n#       href: https://github.com/EllaKaye\n#     - icon: linkedin\n#       text: LinkedIn\n#       href: https://www.linkedin.com/in/ella-kaye-9b878248/\n#     - icon: envelope-fill\n#       text: E-mail \n#       href: mailto:ella.kaye@gmail.com\nknitr:\n  opts_chunk: \n    collapse: true\nexecute: \n  echo: true\n  freeze: auto\n  cache: true  \npage-layout: full\ninclude-in-header: \n  - _includes/fontawesome-2up.html\n  - _includes/mastodon.html\n---\n\n\n::: {.grid}\n\n\n::: {.g-col-12}\n[Arewa DataScience Fellowship 2023]{.home-header} \n:::\n\n::: {.g-col-12 .g-col-md-4}\n<div class=\"card h-100\" id=\"card-third-color\">\n<div class=\"card-body d-flex flex-column\">\n<p class=\"card-text\"> Our mentors are top researchers from renowned universities and labs worldwide.</p>\n<div style=\"margin-top: auto;\"><a href=\"mentors.qmd\" class=\"card-link third-color-link heading-font\">MENTORS</a></div>\n</div>\n</div>\n:::\n\n::: {.g-col-12 .g-col-md-4}\n<div class=\"card h-100\" id=\"card-second-color\">\n<div class=\"card-body d-flex flex-column\">\n<p class=\"card-text\"> Meet the Arewa DataScience Fellows. </p>\n<div style=\"margin-top: auto;\"><a href=\"fellows.qmd\" class=\"card-link second-color-link heading-font\">FELLOWS</a></div>\n</div>\n</div>\n:::\n\n:::",
+    "supporting": [
+      "people_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

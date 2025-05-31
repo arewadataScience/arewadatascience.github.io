@@ -1,0 +1,108 @@
+project:
+  type: website
+  output-dir: docs
+  resources: 
+    - "*.css"
+    - styles.css
+    
+execute:
+  freeze: auto
+
+website:
+  title: "ArewaDS FellowShip"
+  site-url: "https://arewadatascience.github.io"
+  description: "Democratizing data science for everyone and free"
+  margin-header: subscribe.html
+  repo-url: https://github.com/arewadataScience/arewadatascience
+  google-analytics: "G-M701ZTGPSE"
+  #repo-actions: issue
+  #image: images/logo.png
+  navbar:
+    #logo: ELLAKAYE-logo-light.png
+    title: "Arewa DataScience Academy"
+    right:
+      - text: about
+        href: about.qmd
+      - text: Courses
+        menu:
+          - text: 30 Days of Python
+            href: https://github.com/arewadataScience/30-Days-of-Python
+          - text: Machine Learning
+            href: https://github.com/arewadataScience/ArewaDS-Machine-Learning
+          - text: Deep Learning
+            href: https://github.com/arewadataScience/ArewaDS-Deep-Learning
+          - text: Kaggle Challenge
+            href: https://github.com/arewadataScience/ArewaDS-Kaggle-Challenge
+      - text: Mentors
+        href: mentors.qmd
+      - text: Fellows
+        menu:
+          - text: Cohort 1
+            href: fellows.qmd
+          - text: Cohort DL-1
+            href: fellows-dl-1.qmd
+          - text: Cohort ML-2
+            href: fellows-ml-2.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: posts
+        href: posts.qmd
+      - text: contact
+        href: contact.qmd
+      - icon: github
+        href: https://github.com/arewadataScience
+      - icon: rss
+        href: index.xml
+      - icon: twitter
+        href: https://twitter.com/arewadatasc
+  #favicon: images/logo.png
+  twitter-card: 
+  #  title: Arewa DS
+   # description: The website of Arewa Data Science
+  #  image: images/logo.png
+    #image-alt: |
+     # A square logo made from Ella Kaye's name - 
+      #first name on top of last name in dark gray capital letters, 
+      #separated by a horizontal bright pink line, on a very light grey background
+    image-width: 500
+    image-height: 500
+    card-style: summary # alternative summary_large_image
+    creator: "@shmuhammadd"
+    site: "@shmuhammadd"
+  open-graph: 
+    #description: The personal website of Ella Kaye
+    #image: images/logo.png
+    image-width: 500
+    image-height: 500
+    locale: en-GB
+#  google-analytics:
+  #  tracking-id: "G-7G8FLLRS4M"
+    #anonymize-ip: true
+  #   
+  # page-footer: 
+  #   left: "Copyright 2021, Norah Jones" 
+  #   right: 
+  #     - icon: github
+  #       href: https://github.com/
+  #     - icon: twitter 
+  #       href: https://twitter.com/ 
+        
+  page-footer:
+    border: true
+  #  center: "© 2023 [Arewa DataScience Academy](/about.html) [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
+  
+format:
+  html:
+    theme:
+      light: assets/ek-theme-light.scss
+      dark: assets/ek-theme-dark.scss
+    css: assets/ek-styles.css
+    code-block-border-left: true
+    highlight-style: 
+      light: assets/ek-light.theme
+      dark: assets/ek-dark.theme
+    smooth-scroll: true
+    link-external-newwindow: true
+    
+editor: source
+

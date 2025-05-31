@@ -1,0 +1,92 @@
+[
+  {
+    "listing": "/packages.html",
+    "items": []
+  },
+  {
+    "listing": "/mentors.html",
+    "items": [
+      "/people/staff/ibrahim.html",
+      "/people/staff/shamsu.html",
+      "/people/staff/Idris.html",
+      "/people/staff/Saminu.html",
+      "/people/staff/almustapha.html",
+      "/people/staff/bashir.html",
+      "/people/staff/abubakar.html",
+      "/people/staff/hafsa.html",
+      "/people/staff/fauziyya.html",
+      "/people/staff/kabila.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": []
+  },
+  {
+    "listing": "/fellows.html",
+    "items": [
+      "/people/fellows/1.html",
+      "/people/fellows/28.html",
+      "/people/fellows/7.html",
+      "/people/fellows/3.html",
+      "/people/fellows/33.html",
+      "/people/fellows/46.html",
+      "/people/fellows/11.html",
+      "/people/fellows/17.html",
+      "/people/fellows/29.html",
+      "/people/fellows/32.html",
+      "/people/fellows/20.html",
+      "/people/fellows/55.html",
+      "/people/fellows/9.html",
+      "/people/fellows/27.html",
+      "/people/fellows/10.html",
+      "/people/fellows/43.html",
+      "/people/fellows/18.html",
+      "/people/fellows/4.html",
+      "/people/fellows/12.html",
+      "/people/fellows/52.html",
+      "/people/fellows/49.html",
+      "/people/fellows/22.html",
+      "/people/fellows/6.html",
+      "/people/fellows/31.html",
+      "/people/fellows/50.html",
+      "/people/fellows/8.html",
+      "/people/fellows/21.html",
+      "/people/fellows/26.html",
+      "/people/fellows/45.html",
+      "/people/fellows/2.html",
+      "/people/fellows/14.html",
+      "/people/fellows/23.html",
+      "/people/fellows/41.html",
+      "/people/fellows/15.html",
+      "/people/fellows/38.html",
+      "/people/fellows/44.html",
+      "/people/fellows/54.html",
+      "/people/fellows/13.html",
+      "/people/fellows/40.html",
+      "/people/fellows/16.html",
+      "/people/fellows/24.html",
+      "/people/fellows/25.html",
+      "/people/fellows/19.html",
+      "/people/fellows/36.html",
+      "/people/fellows/34.html",
+      "/people/fellows/35.html",
+      "/people/fellows/39.html",
+      "/people/fellows/48.html",
+      "/people/fellows/37.html",
+      "/people/fellows/47.html",
+      "/people/fellows/51.html",
+      "/people/fellows/30.html",
+      "/people/fellows/53.html",
+      "/people/fellows/5.html",
+      "/people/fellows/42.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/announcement/index.html",
+      "/posts/application/index.html"
+    ]
+  }
+]

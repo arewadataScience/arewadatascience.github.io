@@ -1,0 +1,17 @@
+{
+  "hash": "5bff876bd272dc3abcd6e1c535ab885e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Successful Applicants for the 3rd Cohort of the Python Fellowship\"\ndescription: \"We are excited to announce the successful applicants for the 3rd cohort of the Arewa Data Science Academy Python Fellowship.\"\ndate: 2024-10-06\nauthor:\n  - name: Lukman Aliyu\ncategories:\n  - News\n  - ArewaDS\n  - Fellowship\n  - Python\nopen-graph: true\ntwitter-card: true\ndraft: false\nformat: html\nengine: knitr\neditor: \n  markdown: \n    wrap: sentence\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n\n\n\n::: justify\n\n# Exciting News: Successful Applicants for the 3rd Cohort of the Python Fellowship!  {.justify}\n\nWe are thrilled to announce that the successful applicants for the 3rd cohort of the Arewa Data Science Academy Python Fellowship have been selected! We want to congratulate all the new fellows who have demonstrated their dedication, skills, and passion for data science and programming. This fellowship will empower you to further your knowledge, build impactful projects, and become part of a vibrant community of learners and mentors.\n\nSelected applicants have been notified via email. We encourage all successful fellows to check their inboxes for important details regarding the next steps, including instructions on how to join the cohort and prepare for the exciting journey ahead.\n\nWe received an overwhelming number of applications, and we're truly impressed by the high quality of submissions. To those who were not selected this time, we want to say: don't be discouraged. There are many opportunities to grow, learn, and participate in future programs. Your enthusiasm is what drives the community forward, and we hope to see you apply again in the future.\n\nFor more updates, resources, and community events, stay tuned to our website and social media channels. We are eager to watch this new cohort grow, collaborate, and make a mark in the field of data science.\n\nCongratulations once again to the new fellows! Let the journey begin!\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

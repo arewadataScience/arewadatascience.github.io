@@ -1,0 +1,59 @@
+---
+title: Arewa Data Science Fellowship
+description: |
+  Application for the ArewaDS Fellowship 2023 is Open and closes on 8 January
+date: 2023-01-01
+author: 
+  - name: Shamsuddeen Muhammad
+  #  url: https://fosstodon.org/@ellakaye
+#site-url: https://ellakaye.co.uk
+#image: IMAGE.png
+#image-alt: |
+categories:
+  - News
+  - ArewaDS
+  - Mentor
+open-graph: true
+twitter-card: true
+# will inherit title, description, image
+# to change ANYTHING about card, need to fill in EVERYTHING below
+#  title: |
+#  description: |
+#  image: |
+#  image-alt: |
+#  defaults to 500 x 500 summary: uncomment lines below for large card
+#  image-width: 600 
+#  image-height: 314
+#  card-style: summary_large_image 
+#  image-width: 500
+#  image-height: 500
+#  card-style: summary
+draft: false
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+::: {.justify}
+
+# ArewaDS Application is Open ::: {.justify}
+
+
+The Arewa Data Science Fellowship application is open.
+The Arewa Data Science fellowship (ADSF) provides an opportunity to learn from data scientists and machine learning experts. The fellowship is a 16-week-long free training that provides a hands-on approach to data science, machine learning and deep learning. 
+
+The skills and knowledge acquired during the fellowship will help participants pursue careers in data science, machine learning and research. Our goal is to inspire the next generation of researchers in the North and provide them with the tools they need to be successful. 
+The ADSF fellowship provides support with a monthly stipend during the program. 
+
+Applications will be judged based on the strength of the motivation of the applicant, academic record, and scholarly potential.
+
+Application is now closed !
+
+
+:::
+

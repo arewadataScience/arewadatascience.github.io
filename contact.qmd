@@ -1,0 +1,82 @@
+---
+pagetitle: "Contact | Arewa Data Science"
+toc: false
+email-obfuscation: javascript
+format: html
+engine: knitr
+---
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+  </ol>
+</nav>
+```
+
+::: {.justify}
+
+## Get in Touch
+
+Thank you for visiting the Arewa Data Science Academy website. We are dedicated to providing accessible and quality data science education to marginalized students and we value your feedback and input.
+
+Our team is here to assist you with any questions or inquiries you may have. Whether you are interested in learning more about our programs, exploring potential collaboration opportunities, or just want to know more about what we do, please do not hesitate to reach out.
+
+For general inquiries, you can contact us via email at arewadatascience@gmail.com. We will make every effort to respond to your inquiry in a timely manner, typically within 24 hours during business days.
+
+We also have a Telegram channel for students and learners where you can connect with us, collaborate, ask questions and connect with like-minded people, you can join by visiting this [link](https://t.me/+vGZvQdggp1A4NzNk)
+
+Here at Arewa Data Science Academy, we believe that data science education should be accessible to all and we strive to empower marginalized students to achieve their full potential through our programs. We are excited to hear from you and to work together towards a more equitable future in data science.
+
+
+Thank you for your interest in Arewa Data Science Academy. We value your feedback and would love to hear from you. If you are interested to be a mentor, please, reach out. 
+
+<span style="color:blue">Email: arewadatascience[at]gmail.com</span>.
+
+<span style="color:blue">Telegram Channel: [click to join](https://t.me/+vGZvQdggp1A4NzNk)</span>.
+
+
+<!-- Email: arewadatascience@gmail
+Telegram Channel: [click to join](https://t.me/+vGZvQdggp1A4NzNk) -->
+
+:::
+<!-- 
+Here's how you can get in touch with us:
+
+If you are interested in collaborating with us, please email us at partnerships@arewadatascience.com. We look forward to working with you to promote data literacy and empower marginalized students.
+
+Email: info@arewadatascience.com
+Phone: +234 (0)123456789
+Address: Arewa Data Science Academy, No. 100, XYZ Street, Kano, Nigeria
+
+For inquiries about our programs and services, please email us at info@arewadatascience.com. We will do our best to respond to your inquiry within 48 hours.
+
+For technical support, please email us at support@arewadatascience.com. We will do our best to respond to your inquiry within 24 hours.
+
+You can also find us on social media. Follow us on Facebook, Twitter and LinkedIn for updates on our programs and services, as well as news and events from the world of data science.
+
+If you are interested in collaborating with us, please email us at partnerships@arewadatascience.com. We look forward to working with you to promote data literacy and empower marginalized students.
+
+Thank you for choosing Arewa Data Science Academy. We look forward to hearing from you!
+
+We're here to help you take the first step towards your future in data science and machine learning. Whether you have questions about our programs, admissions process, or just want to learn more about what we do, don't hesitate to reach out.
+
+For general inquiries email us at arewadatascience@gmail.com -->
+
+
+
+<!-- 
+## Connect with Us
+
+Stay up to date with the latest news and updates from our school by following us on social media.
+
+
+
+https://www.facebook.com/groups/655151462686476/
+ -->

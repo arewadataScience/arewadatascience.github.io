@@ -1,0 +1,16 @@
+{
+  "hash": "64d95a38dd28d27f9880b884853d6c8c",
+  "result": {
+    "markdown": "---\ntitle: \"Usman Muhammad\"\nsortby: \"Usman, Muhammad\"\nsubtitle: \"Nasarawa State University, Keffi\"\nstate: \"Tamale,Ghana\"\ncompleted: \"❌\"\ntoc: false\nabout:\n  id: person-profile\n  template: jolla\nformat: html\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n```{=html}\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"../../index.html\">Home</a></li>\n    <li class=\"breadcrumb-item\"><a href=\"../../people.html\">People</a></li>\n    <li class=\"breadcrumb-item active\">Alumni</li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">{{< meta title >}}</li>\n  </ol>\n</nav>\n```\n\n\n:::{#person-profile}\n:::\n\n::: {.justify}\n\n## Achievement\nAdmitted\n:::",
+    "supporting": [
+      "usman_muhammad_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

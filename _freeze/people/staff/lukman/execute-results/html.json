@@ -1,0 +1,17 @@
+{
+  "hash": "a6991e0f7488755b3a43d3b371dedded",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Lukman Aliyu Jibril\"\nsortby: \"4\"\nsubtitle: \"Data Scientist\"\nimage: lukman.jpg\ntoc: false\nabout:\n  id: person-profile\n  template: jolla\n  links:\n    - icon: link\n      text: website\n      href: https://lukmanaj.github.io\n    - icon: github\n      text: github\n      href: https://github.com/lukmanaj\n    - icon: twitter\n      text: twitter\n      href: https://twitter.com/lukmanajjk/\n    - icon: linkedin\n      text: linkedin\n      href: https://www.linkedin.com/in/lukman-a-j/\nformat: html\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n```{=html}\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"../../index.html\">Home</a></li>\n    <li class=\"breadcrumb-item\"><a href=\"../../mentors.html\">Mentors</a></li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">{{< meta title >}}</li>\n  </ol>\n</nav>\n```\n\n\n\n:::{#person-profile}\n:::\n\n::: {.justify}\n\n## Biography\nLukman is a dedicated professional thriving in the dynamic landscape of data science and AI. Currently contributing his expertise to Zipline, Nigeria's fulfillment operations, Lukman finds genuine fulfillment in harnessing the power of data. With a solid foundation as a trained pharmacist from Ahmadu Bello University, he has seamlessly transitioned into the world of data science, making remarkable strides in his journey.\n\nLukman's passion for AI is evident in his enthusiastic pursuit of knowledge and skills. Having completed his fellowship as a distinguished member of the inaugural cohort, he has swiftly ascended to a mentorship role, guiding and inspiring aspiring data enthusiasts. Lukman's thirst for growth is unquenchable, as he continues to engage in cutting-edge research and pursue further educational opportunities.\n\nHis unique background and rapid progression make Lukman a valuable asset to any mentee seeking to navigate the exciting realms of data science and AI.\n:::\n",
+    "supporting": [
+      "lukman_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,63 @@
+---
+title: "Bashir Mohammed"
+sortby: "6"
+subtitle: "Computational Researcher"
+image: bashir.jpeg
+started: "Fall 2020"
+toc: false
+resources: 
+  - "girard_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://bashirmohd.github.io
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.com/citations?hl=en&user=iHnh_kp2JOgC
+    - icon: github
+      text: github
+      href: https://github.com/bashirmohd
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/BashirMohd100
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/bashir-mohammed/
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../mentors.html">Mentors</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+::: {.justify}
+
+## Biography
+Bashir is an experienced AI/ML researcher and a staff Computational Research Engineer at Berkeley Lab. He is part of Berkeley Lab's Cybersecurity R&D for Science and Energy in the Integrated Data Frameworks(IDF) group under the Scientific Data Division.
+
+His research revolves around AI/ML for networking, systems control, data provenance, and scientific data management in HPC and distributed systems.
+
+In the past, he was a postdoc on the Deep Learning and Artificial Intelligence High-Performance Networks(DAPHNE) project at Berkeley Lab. His work focused on developing AI and Machine Learning algorithms to optimally control distributed network resources, improve high-speed big data transfers and control high-speed networks that will minimize network downtime and avoid network traffic congestion for critical exascale scientific workflows.
+
+He is a Berkeley Lab research SLAM 2019 award winner. In 2019 he was among six postdoctoral fellows from US National Labs invited to Washington DC, to speak to the Capitol Hill audience about their research. He is a passionate science communicator.
+:::

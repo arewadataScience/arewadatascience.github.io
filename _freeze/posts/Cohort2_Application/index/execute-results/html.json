@@ -1,0 +1,16 @@
+{
+  "hash": "661d4c2c60f25a13d5e47663e3c911ca",
+  "result": {
+    "markdown": "---\ntitle: Arewa Data Science Application is Open\ndescription: |\n  Application for the ArewaDS Cohort2 is Open and closes on 8 September\ndate: 2023-08-008\nauthor: \n  - name: Shamsuddeen Muhammad\n  #  url: https://fosstodon.org/@ellakaye\n#site-url: https://ellakaye.co.uk\n#image: IMAGE.png\n#image-alt: |\ncategories:\n  - News\n  - ArewaDS\n  - Mentor\n  - Application\nopen-graph: true\ntwitter-card: true\n#  title: |\n#  description: |\n#  image: |\n#  image-alt: |\n#  defaults to 500 x 500 summary: uncomment lines below for large card\n#  image-width: 600 \n#  image-height: 314\n#  card-style: summary_large_image \n#  image-width: 500\n#  image-height: 500\n#  card-style: summary\ndraft: false\nformat: html\nengine: knitr\neditor: \n  markdown: \n    wrap: sentence\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n\n::: justify\n# Application is now Open {.justify}\n\nAre you passionate about the power of data and its potential to drive positive change in society?\nAre you eager to enhance your data science skills and make a significant impact in your community?\nIf so, we invite you to apply for the Arewa DataScience Program!\n\n**Program Highlights:**\n\n-   **Comprehensive Curriculum:** The program offers a well-structured curriculum that covers essential data science concepts, including data analysis, machine learning, data visualization, and more.\n\n-   **Experienced Instructors:** Our expert instructors have extensive experience in the field of data science and are committed to guiding participants through their learning journey.\n\n-   **Hands-on Projects:** Participants will have the opportunity to work on real-world data projects, allowing them to gain practical experience and build an impressive portfolio.\n\n-   **Collaborative Learning Environment:** Join a supportive community of like-minded individuals, fostering collaboration and networking opportunities.\n\n**How to Apply the fellowship:**\n\nFollow the link to apply: [Link](https://docs.google.com/forms/d/e/1FAIpQLSfYJBERpEM7bkO3aI8SG0CuJuKNedKfxP6crQeyh555pU4Lhg/viewform)\n\n**Important Dates:**\n\n-   Application Period Opens: 07/08/2023\n\n-   Application Deadline: 07/09/2023\n\nFor any inquiries or further information, please reach out to our team at arewadatascience\\@gmail.com.\n\nJoin us in shaping the future through data science!\nWe look forward to receiving your applications and welcoming you to the Arewa DataScience Program.\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "195cfbc96b7b22c90e338b5891566ac1",
+  "result": {
+    "markdown": "---\ntitle: Arewa Data Science Successful Applicants\ndescription: |\n  Announcing Successful Applicants for the first Cohort of Arewa Data Science \ndate: 2023-01-11\nauthor: \n  - name: Shamsuddeen Muhammad\n  #  url: https://fosstodon.org/@ellakaye\n#site-url: https://ellakaye.co.uk\n#image: IMAGE.png\n#image-alt: |\ncategories:\n  - News\n  - ArewaDS\nopen-graph: true\ntwitter-card: true\nformat: html\nengine: knitr\n# will inherit title, description, image\n# to change ANYTHING about card, need to fill in EVERYTHING below\n#  title: |\n#  description: |\n#  image: |\n#  image-alt: |\n#  defaults to 500 x 500 summary: uncomment lines below for large card\n#  image-width: 600 \n#  image-height: 314\n#  card-style: summary_large_image \n#  image-width: 500\n#  image-height: 500\n#  card-style: summary\ndraft: false\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n\n::: {.justify}\n\n# Annoucing Successful Applicants for the first Cohort of Arewa Data Science\n\nWe are pleased to announce the successful applicants for the first cohort of Arewa Data Science Fellowship. \n\nThese applicants have demonstrated a strong aptitude for data science, and we are confident that they will make a significant contribution to the program.\n\nWe look forward to the success of the program and to the contributions these applicants will make to scientific community. \n\nThe full list of the successful applicants is [here](https://arewadatascience.github.io/fellows.html)\n\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

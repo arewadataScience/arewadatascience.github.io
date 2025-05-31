@@ -1,0 +1,59 @@
+---
+title: Arewa Data Science Successful Applicants
+description: |
+  Announcing Successful Applicants for the first Cohort of Arewa Data Science 
+date: 2023-01-11
+author: 
+  - name: Shamsuddeen Muhammad
+  #  url: https://fosstodon.org/@ellakaye
+#site-url: https://ellakaye.co.uk
+#image: IMAGE.png
+#image-alt: |
+categories:
+  - News
+  - ArewaDS
+  - Mentor
+open-graph: true
+twitter-card: true
+# will inherit title, description, image
+# to change ANYTHING about card, need to fill in EVERYTHING below
+#  title: |
+#  description: |
+#  image: |
+#  image-alt: |
+#  defaults to 500 x 500 summary: uncomment lines below for large card
+#  image-width: 600 
+#  image-height: 314
+#  card-style: summary_large_image 
+#  image-width: 500
+#  image-height: 500
+#  card-style: summary
+# draft: false
+draft: false
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+::: {.justify}
+
+# Fellowship Successful Applicants
+
+We are thrilled to announce the selection of the first cohort of exceptional applicants for the Arewa Data Science Fellowship program. These individuals have shown exceptional aptitude and passion for data science, and we are confident that they will make significant contributions to the program and to the field of data science as a whole.
+
+The selection process was highly competitive, and we received a large number of excellent applications. We would like to extend our congratulations to all of the successful applicants and we look forward to working with them in the upcoming program.
+
+We are excited to see the impact that this program will have on the data science community and on the career development of these individuals. This fellowship program is a great step towards creating a more inclusive data science community in Nigeria.
+
+The full list of the successful applicants is available [here](https://arewadatascience.github.io/fellows.html).
+
+In addition to the exceptional training and mentorship they will receive through the Arewa Data Science Fellowship program, successful applicants will also receive a generous monthly stipend and free internet data to ensure they have access to the resources they need to be successful in the program.
+
+Thank you to everyone who applied and we hope to see you again in the next cohort.
+
+:::

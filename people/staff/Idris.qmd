@@ -1,0 +1,61 @@
+---
+title: "Idris Abdulmumin"
+sortby: "3"
+subtitle: "Lecturer in CS/Postdoc Fellow"
+image: idris.jpg
+toc: false
+resources: 
+  - "gray_cv.pdf"
+started: "Fall 2022"
+ended: "Current"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://abu.edu.ng/staff/abdulmumin-idris?vn/2022-09-259493.html
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.com/citations?user=UJBFXaoAAAAJ&hl=en&oi=ao
+    - icon: github
+      text: github
+      href: https://github.com/abumafrim
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/abumafrim/
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/abumafrim/
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../mentors.html">Mentors</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+
+::: {.justify}
+
+## Biography
+
+Idris Abdulmumin is a lecturer at the Department of Computer Science, Ahmadu Bello University, Zaria. He is currently a postdoctoral fellow at the Data Science for Social Impact Research Group at the University of Pretoria, South Africa, under the supervision of Professor Vukosi Marivate. He obtained his PhD from Bayero University, Kano in 2023, under the supervision of Professor Bashir Shehu Galadanci, having conducted doctoral research on machine translation for low-resource languages. He has led impactful projects, including MasaKhane's submission to WMT22 and managing the Lacuna 2022 grant for "AfriHate," a hate speech dataset for African languages. With roles in organising AfriSenti-SemEval 2023 and SemRel-SemEval 2024, curating datasets like Hausa Visual Genome, Hausa Visual Question Answering, LAFAND-MT and MasaKhaNER 2.0, and leading initiatives like HauWE, Idris is dedicated to advancing NLP for African languages. His contributions extend to LREC publications and driving language technology's progress within African contexts. His LinkedIn profile can be accessed via https://www.linkedin.com/in/abumafrim/
+
+:::

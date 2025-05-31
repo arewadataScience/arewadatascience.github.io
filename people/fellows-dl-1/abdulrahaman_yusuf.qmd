@@ -1,0 +1,39 @@
+---
+title: "Abdulrahaman Yusuf"
+sortby: "Abdulrahaman, Yusuf"
+subtitle: "N/A"
+state: "N/A"
+completed: "❌"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Alumni</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+::: {.justify}
+
+## Achievement
+Admitted.
+:::

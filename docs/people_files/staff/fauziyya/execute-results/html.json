@@ -1,0 +1,14 @@
+{
+  "hash": "f205cb12c2640d3c519d6b44d8823ead",
+  "result": {
+    "markdown": "---\ntitle: \"Fauziya Ado Yakasai\"\nsortby: \"9\"\nsubtitle: \"Posdoc\"\nimage: hafsa.jpg\nstarted: \"Fall 2020\"\ntoc: false\nresources: \n  - \"girard_cv.pdf\"\nabout:\n  id: person-profile\n  template: jolla\n  links:\n  \n    - icon: linkedin\n      text: linkedin\n      href: https://www.linkedin.com/in/fauziya-ado-yakasai-77bb7963/\nformat: html\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n```{=html}\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"../../index.html\">Home</a></li>\n    <li class=\"breadcrumb-item\"><a href=\"../../mentors.html\">Mentors</a></li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">{{< meta title >}}</li>\n  </ol>\n</nav>\n```\n\n\n:::{#person-profile}\n:::\n\n::: {.justify}\n\n## Biography\nDr.Yakasai is an experienced researcher and data science professional with over 7 years of combined experience in data science, statistics, mathematics, and research in academia and corporate America. Expert in applied mathematics, statistics, business analytics, and data science with a rich blend of teaching and quantitative research experience.\n\nHardworking mathematicians, statisticians, and business/data analysts with expertise in statistical and data modeling, probability, and numerical integration. Proficient in data mining techniques, including data entry, compilation, sampling, cleaning, transformation, QA/QC, data visualization, etc. Strong passion and commitment in artificial intelligence (AI), machine learning (ML), and deep learning (DL)\n\nFauziya holds a Bachelor of Science (BS) in Mathematics from Bayero University, Kano, Nigeria; a Master of Science (MS) in Pure and Applied Mathematics from the African University of Science and Technology, Abuja, Nigeria; a Master of Science (MS) in Probability and Statistics from Auburn University, Auburn, Alabama; and a PhD in Mathematics from Auburn University, Auburn, Alabama. She has a Graduate Certification in Business Analytics from Auburn University in Auburn, Alabama. She is currently a postdoctoral fellow in Data Analysis of R&D partnerships at York University, Canada, and a Data Science consultant at LOCOMeX inc USA.\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

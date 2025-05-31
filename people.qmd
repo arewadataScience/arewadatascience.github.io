@@ -1,0 +1,58 @@
+---
+# title: ELLA KAYE
+# image: images/profile.jpeg
+# about:
+#   template: jolla
+#   image-shape: rounded
+#   links:
+#     - icon: twitter
+#       text: Twitter
+#       href: https://twitter.com/ellamkaye
+#     - icon: github
+#       text: Github
+#       href: https://github.com/EllaKaye
+#     - icon: linkedin
+#       text: LinkedIn
+#       href: https://www.linkedin.com/in/ella-kaye-9b878248/
+#     - icon: envelope-fill
+#       text: E-mail 
+#       href: mailto:ella.kaye@gmail.com
+knitr:
+  opts_chunk: 
+    collapse: true
+execute: 
+  echo: true
+  freeze: auto
+  cache: true  
+page-layout: full
+include-in-header: 
+  - _includes/fontawesome-2up.html
+  - _includes/mastodon.html
+---
+
+::: {.grid}
+
+
+::: {.g-col-12}
+[Arewa DataScience Fellowship 2023]{.home-header} 
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-third-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text"> Our mentors are top researchers from renowned universities and labs worldwide.</p>
+<div style="margin-top: auto;"><a href="mentors.qmd" class="card-link third-color-link heading-font">MENTORS</a></div>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-second-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text"> Meet the Arewa DataScience Fellows. </p>
+<div style="margin-top: auto;"><a href="fellows.qmd" class="card-link second-color-link heading-font">FELLOWS</a></div>
+</div>
+</div>
+:::
+
+:::

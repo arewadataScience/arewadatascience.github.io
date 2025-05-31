@@ -1,0 +1,59 @@
+---
+title: "Abubakar Bala"
+sortby: "7"
+subtitle: "Data Scientist"
+image: abubakar.jpeg
+started: "Fall 2020"
+toc: false
+resources: 
+  - "girard_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+  
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.com/citations?hl=en&user=Xd63vWQAAAAJ
+    - icon: github
+      text: github
+      href: https://github.com/bala-221
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/abubakarbala2
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/abubakar-bala/
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../mentors.html">Mentors</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+::: {.justify}
+
+## Biography
+Just finished a PhD on using AI to detect faults in the engines of aircrafts. 
+
+Now I am focused on building end-end machine learning applications (MLOps) 
+
+I also do public speaking and write thought-provoking stories.
+:::

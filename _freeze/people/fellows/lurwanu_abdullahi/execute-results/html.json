@@ -1,0 +1,14 @@
+{
+  "hash": "b0ccc8f4af3658a2d09ec6d55abee3ea",
+  "result": {
+    "markdown": "---\ntitle: \"Lurwanu Abdullahi\"\nsortby: \"Lurwanu, Abdullahi\"\nsubtitle: \"Self-employed\"\nstate: \"Katsina\"\ntoc: false\nabout:\n  id: person-profile\n  template: jolla\nformat: html\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n```{=html}\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"../../index.html\">Home</a></li>\n    <li class=\"breadcrumb-item\"><a href=\"../../people.html\">People</a></li>\n    <li class=\"breadcrumb-item active\">Alumni</li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">{{< meta title >}}</li>\n  </ol>\n</nav>\n```\n\n\n:::{#person-profile}\n:::\n\n::: {.justify}\n\n## Achievement\nCompleted and certificate issued.\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

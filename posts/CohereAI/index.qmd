@@ -1,0 +1,62 @@
+---
+title: Arewa Data Science Team Wins Competition
+description: |
+  ArewaDS-LMBF of Arewa Data Science Fellowship Takes Second Place in Cohere AI Hackathon
+date: 2023-07-10
+author: 
+  - name: Lukman Aliyu Jibril
+  #  url: https://fosstodon.org/@ellakaye
+#site-url: https://ellakaye.co.uk
+#image: IMAGE.png
+#image-alt: |
+categories:
+  - News
+  - ArewaDS
+  - Fellow
+open-graph: true
+twitter-card: true
+# will inherit title, description, image
+# to change ANYTHING about card, need to fill in EVERYTHING below
+#  title: |
+#  description: |
+#  image: |
+#  image-alt: |
+#  defaults to 500 x 500 summary: uncomment lines below for large card
+#  image-width: 600 
+#  image-height: 314
+#  card-style: summary_large_image 
+#  image-width: 500
+#  image-height: 500
+#  card-style: summary
+# draft: false
+draft: false
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+::: {.justify}
+
+
+ArewaDS-LMBF, a team from the Arewa Data Science Fellowship, achieved an impressive feat on May 13th, 2023, by securing second place in the Cohere AI hackathon. Organized by Cohere and AI Saturdays Lagos, the hackathon centered around the theme "Empower your creativity with Cohere's Multilingual Embeddings" and was hosted on devpost. The event spanned from May 1st to May 7th, 2023, with participants gathering at multiple locations across the continent, including the enthusiastic Arewa Data Science Academy community.
+
+The teams representing ArewaDS showcased their expertise in machine learning, particularly in large language models, as they presented their innovative projects utilizing the [Cohere multilingual embeddings API](https://docs.cohere.com/docs/multilingual-language-models). Among the submissions, ArewaDS-LMBF proposed an exceptional solution that utilised the multilingual embeddings API to align Hausa sentences with their potential translations in English. This approach aimed to contribute to the creation of accurate parallel datasets for machine translation. Their outstanding submission propelled them to the finals, securing them a well-deserved second place in the overall rankings.
+
+Lukman, the team lead of ArewaDS-LMBF, expressed his overwhelming delight at this historic achievement. He remarked, "Starting from scratch in machine learning and winning an AI hackathon within a few months of joining the fellowship is truly incredible. The unwavering support of the mentors in Arewa Data Science Academy played a pivotal role in this accomplishment. They ensured equal opportunities for all fellows and guided us to the right resources. I am immensely grateful for this invaluable experience."
+
+As a reward for their outstanding performance, the team was granted a prize of 800 US Dollars, along with 2000 Cohere API credits, to be shared among the five team members. Looking ahead, the team revealed their plans to further enhance their solution while harnessing the cohere platform to deepen their understanding of Natural Language Processing and Large Language Models. Their commitment to continuous improvement and exploration exemplifies their dedication to excellence.
+
+This accomplishment offers a mere glimpse into the transformative impact that the Arewa Data Science Fellowship has had on the lives of its young fellows within a short span of time. The Arewa Data Science Fellowship stands as an intensive program designed to nurture the next generation of research-oriented data scientists. Through its mentorship, monthly stipends, and provision of data, the fellowship equips aspiring data scientists with the necessary tools to thrive in their field. For more information about the fellowship, please visit our website.
+
+
+
+
+
+
+
+:::

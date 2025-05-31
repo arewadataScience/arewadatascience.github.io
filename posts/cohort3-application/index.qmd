@@ -1,0 +1,88 @@
+---
+title: "Application is Now Open for Arewa Data Science Fellowships"
+description: "Enhance your data science skills with our comprehensive fellowship programs designed for various levels of expertise. Apply now!"
+date: 2024-08-04
+author: 
+  - name: Lukman Aliyu
+  #  url: https://fosstodon.org/@ellakaye
+#site-url: https://ellakaye.co.uk
+#image: IMAGE.png
+#image-alt: |
+categories:
+  - News
+  - ArewaDS
+  - Mentor
+  - Application
+open-graph: true
+twitter-card: true
+#  title: |
+#  description: |
+#  image: |
+#  image-alt: |
+#  defaults to 500 x 500 summary: uncomment lines below for large card
+#  image-width: 600 
+#  image-height: 314
+#  card-style: summary_large_image 
+#  image-width: 500
+#  image-height: 500
+#  card-style: summary
+draft: false
+format: html
+engine: knitr
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+::: justify
+# Application is Now Open for Arewa Data Science Fellowships {.justify}
+
+Are you passionate about the power of data and its potential to drive positive change in society? Are you eager to enhance your data science skills and make a significant impact in your community? If so, we invite you to apply for the Arewa Data Science Fellowships!
+
+We are excited to announce the opening of applications for our comprehensive fellowship programs, designed to cater to various levels of expertise in data science. Whether you are a beginner or an advanced learner, we have a fellowship that suits your needs.
+
+### Program Highlights:
+
+1. **Arewa Data Science Python Programming Fellowship (Introductory)**
+   - **Curriculum**: Data science, Python, data visualization, and more.
+   - **Deadline**: 16th September 2024, 11:59 pm.
+   - **Apply Now**: [click here](https://bit.ly/ADSPF_2024)
+
+2. **Arewa Data Science R Programming Fellowship (Introductory)**
+   - **Curriculum**: R programming, data analysis, machine learning, data visualization, and more.
+   - **Deadline**: 20th September 2024, 11:59 pm.
+   - **Apply Now**: [click here](https://bit.ly/ADSRF_2024)
+
+3. **Deep Learning with PyTorch Fellowship (Intermediate)**
+   - **Curriculum**: Deep learning, PyTorch, machine learning, and more.
+   - **Deadline**: 20th September 2024, 11:59 pm.
+   - **Apply Now**: [click here](https://bit.ly/ADSDPF_2024)
+
+4. **Arewa Data Science NLP Fellowship (Advanced)**
+   - **Curriculum**: NLP, deep learning, PyTorch, Large Language Models, Generative AI, and more.
+   - **Deadline**: 20th September 2024, 11:59 pm.
+   - **Apply Now**: [click here](https://bit.ly/ADSNLP_2024)
+
+### Hands-on Projects and Networking
+
+All our fellowships include hands-on projects that allow participants to work on real-world data challenges, ensuring practical experience and a robust portfolio. Additionally, you will be part of a collaborative learning environment where you can network with like-minded individuals, share insights, and build connections that can support your career growth.
+
+### Important Dates:
+
+- **Application Period Opens**: Now
+- **Application Deadlines**:
+  - Python Programming Fellowship: 16th September 2024, 11:59 pm.
+  - R Programming Fellowship: 20th September 2024, 11:59 pm.
+  - Deep Learning with PyTorch Fellowship: 20th September 2024, 11:59 pm.
+  - NLP Fellowship: 20th September 2024, 11:59 pm.
+
+For any inquiries or further information, please reach out to our team at arewadatascience@gmail.com.
+
+Join us in shaping the future through data science! We look forward to receiving your applications and welcoming you to the Arewa Data Science Fellowships.
+:::

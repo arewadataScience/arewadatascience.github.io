@@ -1,0 +1,43 @@
+---
+title: "Almustapha A. Wakili"
+sortby: "4"
+subtitle: "Lecturer in CS"
+image: almustapha.jpeg
+started: "Fall 2020"
+toc: false
+resources: 
+  - "girard_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://mobile.twitter.com/binwakili
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/binwakeel
+format: html
+engine: knitr
+---
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../mentors.html">Mentors</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+.

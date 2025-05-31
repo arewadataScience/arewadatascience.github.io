@@ -1,0 +1,75 @@
+---
+title: Arewa Data Science Application is Open
+description: |
+  Application for the ArewaDS Cohort2 is Open and closes on 8 September
+date: 2023-08-008
+author: 
+  - name: Shamsuddeen Muhammad
+  #  url: https://fosstodon.org/@ellakaye
+#site-url: https://ellakaye.co.uk
+#image: IMAGE.png
+#image-alt: |
+categories:
+  - News
+  - ArewaDS
+  - Mentor
+  - Application
+open-graph: true
+twitter-card: true
+#  title: |
+#  description: |
+#  image: |
+#  image-alt: |
+#  defaults to 500 x 500 summary: uncomment lines below for large card
+#  image-width: 600 
+#  image-height: 314
+#  card-style: summary_large_image 
+#  image-width: 500
+#  image-height: 500
+#  card-style: summary
+draft: false
+format: html
+engine: knitr
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+::: justify
+# Application is now Open {.justify}
+
+Are you passionate about the power of data and its potential to drive positive change in society?
+Are you eager to enhance your data science skills and make a significant impact in your community?
+If so, we invite you to apply for the Arewa DataScience Program!
+
+**Program Highlights:**
+
+-   **Comprehensive Curriculum:** The program offers a well-structured curriculum that covers essential data science concepts, including data analysis, machine learning, data visualization, and more.
+
+-   **Experienced Instructors:** Our expert instructors have extensive experience in the field of data science and are committed to guiding participants through their learning journey.
+
+-   **Hands-on Projects:** Participants will have the opportunity to work on real-world data projects, allowing them to gain practical experience and build an impressive portfolio.
+
+-   **Collaborative Learning Environment:** Join a supportive community of like-minded individuals, fostering collaboration and networking opportunities.
+
+**How to Apply the fellowship:**
+
+Follow the link to apply: [Link](https://docs.google.com/forms/d/e/1FAIpQLSfYJBERpEM7bkO3aI8SG0CuJuKNedKfxP6crQeyh555pU4Lhg/viewform)
+
+**Important Dates:**
+
+-   Application Period Opens: 07/08/2023
+
+-   Application Deadline: 07/09/2023
+
+For any inquiries or further information, please reach out to our team at arewadatascience\@gmail.com.
+
+Join us in shaping the future through data science!
+We look forward to receiving your applications and welcoming you to the Arewa DataScience Program.
+:::

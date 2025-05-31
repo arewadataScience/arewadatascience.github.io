@@ -1,0 +1,53 @@
+---
+title: "Lukman Aliyu Jibril"
+sortby: "4"
+subtitle: "Data Scientist"
+image: lukman.jpg
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://lukmanaj.github.io
+    - icon: github
+      text: github
+      href: https://github.com/lukmanaj
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/lukmanajjk/
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/lukman-a-j/
+format: html
+engine: knitr
+---
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../mentors.html">Mentors</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+::: {.justify}
+
+## Biography
+Lukman is a dedicated professional thriving in the dynamic landscape of data science and AI. Currently contributing his expertise to Zipline, Nigeria's fulfillment operations, Lukman finds genuine fulfillment in harnessing the power of data. With a solid foundation as a trained pharmacist from Ahmadu Bello University, he has seamlessly transitioned into the world of data science, making remarkable strides in his journey.
+
+Lukman's passion for AI is evident in his enthusiastic pursuit of knowledge and skills. Having completed his fellowship as a distinguished member of the inaugural cohort, he has swiftly ascended to a mentorship role, guiding and inspiring aspiring data enthusiasts. Lukman's thirst for growth is unquenchable, as he continues to engage in cutting-edge research and pursue further educational opportunities.
+
+His unique background and rapid progression make Lukman a valuable asset to any mentee seeking to navigate the exciting realms of data science and AI.
+:::

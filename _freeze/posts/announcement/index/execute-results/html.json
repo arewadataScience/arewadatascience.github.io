@@ -1,0 +1,16 @@
+{
+  "hash": "194ee527aa617eef20aa54a35f06260e",
+  "result": {
+    "markdown": "---\ntitle: Arewa Data Science Successful Applicants\ndescription: |\n  Announcing Successful Applicants for the first Cohort of Arewa Data Science \ndate: 2023-01-11\nauthor: \n  - name: Shamsuddeen Muhammad\n  #  url: https://fosstodon.org/@ellakaye\n#site-url: https://ellakaye.co.uk\n#image: IMAGE.png\n#image-alt: |\ncategories:\n  - News\n  - ArewaDS\n  - Mentor\nopen-graph: true\ntwitter-card: true\n# will inherit title, description, image\n# to change ANYTHING about card, need to fill in EVERYTHING below\n#  title: |\n#  description: |\n#  image: |\n#  image-alt: |\n#  defaults to 500 x 500 summary: uncomment lines below for large card\n#  image-width: 600 \n#  image-height: 314\n#  card-style: summary_large_image \n#  image-width: 500\n#  image-height: 500\n#  card-style: summary\n# draft: false\ndraft: false\nformat: html\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.justify {\n  text-align: justify !important\n}\n</style>\n:::\n\n\n::: {.justify}\n\n# Fellowship Successful Applicants\n\nWe are thrilled to announce the selection of the first cohort of exceptional applicants for the Arewa Data Science Fellowship program. These individuals have shown exceptional aptitude and passion for data science, and we are confident that they will make significant contributions to the program and to the field of data science as a whole.\n\nThe selection process was highly competitive, and we received a large number of excellent applications. We would like to extend our congratulations to all of the successful applicants and we look forward to working with them in the upcoming program.\n\nWe are excited to see the impact that this program will have on the data science community and on the career development of these individuals. This fellowship program is a great step towards creating a more inclusive data science community in Nigeria.\n\nThe full list of the successful applicants is available [here](https://arewadatascience.github.io/fellows.html).\n\nIn addition to the exceptional training and mentorship they will receive through the Arewa Data Science Fellowship program, successful applicants will also receive a generous monthly stipend and free internet data to ensure they have access to the resources they need to be successful in the program.\n\nThank you to everyone who applied and we hope to see you again in the next cohort.\n\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

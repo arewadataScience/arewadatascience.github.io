@@ -1,0 +1,14 @@
+{
+  "hash": "8e761dc58e6283ebfc316a41f14acf2c",
+  "result": {
+    "markdown": "---\n#title: \"Community\"\n#page-layout: full\nknitr:\n  opts_chunk: \n    collapse: true\nexecute: \n  echo: true\n  freeze: auto\n  cache: true  \ntoc: false\n---\n\n::: {.cell hash='community_cache/html/unnamed-chunk-1_351e200c77e370e3bd4ba5ccb41ed2fb'}\n\n:::\n\n\n# [Projects]{.third-color}\n\nLearn by doing. Theory is nice, but nothing replaces actual experience. -Tony Hsieh\n\nOur mentors from Universities across Nigeria and beyond will guide fellows to undergo interesting projects on data science and machine learning depending on experience and background.\n\n\nList of Projects\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

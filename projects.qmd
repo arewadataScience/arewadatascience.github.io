@@ -1,0 +1,64 @@
+---
+#title: "Community"
+#page-layout: full
+knitr:
+  opts_chunk: 
+    collapse: true
+execute: 
+  echo: true
+  freeze: auto
+  cache: true  
+toc: false
+---
+
+```{r}
+#| echo: false
+library(distilltools)
+```
+
+# [Projects]{.third-color}
+
+
+
+> Learn by doing. Theory is nice, but nothing replaces actual experience. -Tony Hsieh
+
+That’s why our mentors from leading Universities across Nigeria and beyond will guide fellows to undertake challenging and rewarding projects on data science and machine learning tailored to their experience and background.
+
+Below are some of the amazing projects that our fellows have completed or are working on:
+
+List of Projects by our fellows
+
+
+## List of Projects Completed by ArewaDS Fellows
+
+|S.No|Name of Fellow|Project Github repo| Blog/Medium   |   
+|---|--------------|-------------------|---------------| 
+|1| Lukman Aliyu Jibril |  [project](https://github.com/lukmanaj)  | [Medium](https://lukmanaj.medium.com)  | 
+|2| Auwal Abubakar Khalid |  [project](https://github.com/khalidassalafy)|  [Medium](https://medium.com/@khalidassalafy)| 
+|3| Yusuf Faridah Musa | [project](https://github.com/Fareeyda/) | [Medium](https://medium.com/@waziriphareeyda)|
+|4| Fatima Muhammad Adam | [project](https://github.com/FatimaMuhammadAdam/) | [Medium](https://medium.com/@fateemamohdadam2) |
+|5| Bala Mairiga Abduljalil| [project](https://github.com/Balaaabduljalil/)|[Medium](https://medium.com/@ballaabduljalil)|
+|6| Mohammed Nasiru | [project](https://github.com/katada3020/) | [Medium](https://medium.com/@katada3020)|
+|7| Babangida Sani | [project](https://github.com/TheBangis) | [Medium](https://medium.com/@bsani480) |
+|8| Abdulkarim Muhammad Baba |[project](https://github.com/AbdulkarimMuhammadBaba) | [Medium](https://medium.com/@Spinalvolcano)|
+|9| Faisal Muhammad Adam | [project](https://github.com/faisalm93) | [Medium](https://medium.com/@vafaisalm93) |
+|10| Mubarak Daha Isa | [project](https://github.com/bagwai/) | [Medium](https://medium.com/@mubarakdaha) |
+|11| Muhammad Ibrahim Isah | [project](https://github.com/Muhammad0isah) | [Medium](https://medium.com/@muhammadibrahimisah0)|
+|12| Abubakar Labaran Salisu | [project](https://github.com/boixee) | [Medium](http://www.medium.com/@abubakarsalisulabaran)|
+|13| Aminu Hamza Nababa | [project](https://github.com/Alamein) | [Medium](https://medium.com/@alaminhnab4) |
+|14| Auwal Auwal Sulaiman | [project](https://github.com/Khalboy10/) | [Medium](https://medium.com/@Khalboy10) |
+|15| Tanimu Abdullahi |[project](https://github.com/Tanimu01/)| [Medium](https://medium.com/@aaltanim)|
+|16| Abdullahi Lurwanu | [project](https://github.com/lurwan2107) | [Medium](https://medium.com/@lurwan2107) |
+|17| Faruk Hussain Abdullahi  | [project](https://github.com/Roukson) | [Medium](https://medium.com/@farukhussainkbt)|
+|18| Ishaq Hassan | [project](https://github.com/abba360)| [Medium](https://medium.com/@hassanishaq)|
+|19| Mahmud Mahmud Ibrahim | [project](https://github.com/Mudacrixxz) | [Medium](https://mudacrixxz.medium.com/) |
+|20| Maryam Sabo Abubakar | [project](https://github.com/Maryam0011) | [Medium](https://medium.com/@maryamsabubakar53) |
+|21| Rufa'i Ibrahim Dikko | [project](https://github.com/Ridikko) | [Medium](https://medium.com/@rufaiibrahimdikko) |
+|22| Hamzah Mahmud | [project](https://github.com/mhmahmuud/) | [Medium](https://medium.com/@mhmahmoud360) |
+|23| Sani UmarMuhammad | [project](https://github.com/Umarsmuhammed) | [Medium](https://medium.com/@umarsmuhammed) |
+|24| Alamin Musa Magaga | [project](https://github.com/alaminmagaga) | [Medium](https://alaminmusamagaga.medium.com/) |
+|25| Abubakar Aliyu | [project](https://github.com/Abubakar-Aliyu-code/) | [Medium](https://medium.com/@datathon) |
+|26| Hassan Muhammad Adam | [project](https://github.com/hassan1303) | [Medium](https://medium.com/@hassanmuhammadadam1) |
+|27| Ibrahim Sufiyanu | [project](https://github.com/Sisa4real) | [Medium](https://medium.com/@sufiyanibraheem3) |
+
+

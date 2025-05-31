@@ -1,0 +1,41 @@
+---
+title: "Successful Applicants for the 3rd Cohort of the Python Fellowship"
+description: "We are excited to announce the successful applicants for the 3rd cohort of the Arewa Data Science Academy Python Fellowship."
+date: 2024-10-06
+author:
+  - name: Lukman Aliyu
+categories:
+  - News
+  - ArewaDS
+  - Fellowship
+  - Python
+open-graph: true
+twitter-card: true
+draft: false
+format: html
+engine: knitr
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+::: justify
+
+# Exciting News: Successful Applicants for the 3rd Cohort of the Python Fellowship!  {.justify}
+
+We are thrilled to announce that the successful applicants for the 3rd cohort of the Arewa Data Science Academy Python Fellowship have been selected! We want to congratulate all the new fellows who have demonstrated their dedication, skills, and passion for data science and programming. This fellowship will empower you to further your knowledge, build impactful projects, and become part of a vibrant community of learners and mentors.
+
+Selected applicants have been notified via email. We encourage all successful fellows to check their inboxes for important details regarding the next steps, including instructions on how to join the cohort and prepare for the exciting journey ahead.
+
+We received an overwhelming number of applications, and we're truly impressed by the high quality of submissions. To those who were not selected this time, we want to say: don't be discouraged. There are many opportunities to grow, learn, and participate in future programs. Your enthusiasm is what drives the community forward, and we hope to see you apply again in the future.
+
+For more updates, resources, and community events, stay tuned to our website and social media channels. We are eager to watch this new cohort grow, collaborate, and make a mark in the field of data science.
+
+Congratulations once again to the new fellows! Let the journey begin!
+:::
