@@ -23,6 +23,7 @@ engine: knitr
 ::: {.justify}
 
 ## Machine Learning
+```{=html}
 <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
   <div class="col">
     <a href="./fellows-ml-1.html" class="card-link">
@@ -67,9 +68,10 @@ engine: knitr
     </a>
   </div>
 </div>
+```
 
 ## Deep Learning
-
+```{=html}
 <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
   <div class="col">
     <a href="./fellows-dl-1.html" class="card-link">
@@ -100,5 +102,5 @@ engine: knitr
     </a>
   </div>
 </div>
-
+```
 :::

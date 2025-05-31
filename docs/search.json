@@ -1138,14 +1138,14 @@
     "href": "fellows.html#machine-learning",
     "title": "ArewaDS FellowShip",
     "section": "Machine Learning",
-    "text": "Machine Learning\n\n\n&lt;a href=\"./fellows-ml-1.html\" class=\"card-link\"&gt;\n  &lt;div class=\"card h-100 border-primary\"&gt;\n    &lt;div class=\"card-body\"&gt;\n      &lt;h5 class=\"card-title\"&gt;\n        Cohort 1\n      &lt;/h5&gt;\n      &lt;p class=\"card-text\"&gt;\n        Graduated 2022 &mdash; Supervised learning foundations.\n      &lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/a&gt;\n\n\n&lt;a href=\"./fellows-ml-2.html\" class=\"card-link\"&gt;\n  &lt;div class=\"card h-100 border-primary\"&gt;\n    &lt;div class=\"card-body\"&gt;\n      &lt;h5 class=\"card-title\"&gt;\n        Cohort 2\n      &lt;/h5&gt;\n      &lt;p class=\"card-text\"&gt;\n        Graduated 2022 &mdash; Supervised learning foundations.\n      &lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/a&gt;\n\n\n&lt;a href=\"./fellows-ml-3.html\" class=\"card-link\"&gt;\n  &lt;div class=\"card h-100 border-primary\"&gt;\n    &lt;div class=\"card-body\"&gt;\n      &lt;h5 class=\"card-title\"&gt;\n        Cohort 3\n      &lt;/h5&gt;\n      &lt;p class=\"card-text\"&gt;\n        Graduated 2022 &mdash; Supervised learning foundations.\n      &lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/a&gt;"
+    "text": "Machine Learning\n\n  \n    \n      \n        \n          \n            Cohort 1\n          \n          \n            Graduated 2022 — Supervised learning foundations.\n          \n        \n      \n    \n  \n  \n    \n      \n        \n          \n            Cohort 2\n          \n          \n            Graduated 2022 — Supervised learning foundations.\n          \n        \n      \n    \n  \n  \n    \n      \n        \n          \n            Cohort 3\n          \n          \n            Graduated 2022 — Supervised learning foundations."
   },
   {
     "objectID": "fellows.html#deep-learning",
     "href": "fellows.html#deep-learning",
     "title": "ArewaDS FellowShip",
     "section": "Deep Learning",
-    "text": "Deep Learning\n\n\n&lt;a href=\"./fellows-dl-1.html\" class=\"card-link\"&gt;\n  &lt;div class=\"card h-100 border-primary\"&gt;\n    &lt;div class=\"card-body\"&gt;\n      &lt;h5 class=\"card-title\"&gt;\n        Cohort 1\n      &lt;/h5&gt;\n      &lt;p class=\"card-text\"&gt;\n        Graduated 2022 &mdash; Supervised learning foundations.\n      &lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/a&gt;\n\n\n&lt;a href=\"./fellows-dl-2.html\" class=\"card-link\"&gt;\n  &lt;div class=\"card h-100 border-primary\"&gt;\n    &lt;div class=\"card-body\"&gt;\n      &lt;h5 class=\"card-title\"&gt;\n        Cohort 2\n      &lt;/h5&gt;\n      &lt;p class=\"card-text\"&gt;\n        Graduated 2022 &mdash; Supervised learning foundations.\n      &lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/a&gt;"
+    "text": "Deep Learning\n\n  \n    \n      \n        \n          \n            Cohort 1\n          \n          \n            Graduated 2022 — Supervised learning foundations.\n          \n        \n      \n    \n  \n  \n    \n      \n        \n          \n            Cohort 2\n          \n          \n            Graduated 2022 — Supervised learning foundations."
   },
   {
     "objectID": "talks.html",
