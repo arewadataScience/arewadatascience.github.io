@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ArewaDS | Fellows</title>
+<title>ArewaDS | Fellows – ArewaDS FellowShip</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,24 +32,33 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-11decf48fcbd46af777ad54d94558b6d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-6e46ce92f1d7ec1bfedefb32689bb3ef.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-11decf48fcbd46af777ad54d94558b6d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-3bb543b3df49139bb6dbef4b7ddacdd9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-cd588e4262cc2e5535b427d71e55207e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-3bb543b3df49139bb6dbef4b7ddacdd9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -104,12 +114,39 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="assets/ek-styles.css">
 <meta property="og:title" content="ArewaDS | Fellows">
-<meta property="og:site-name" content="ArewaDS FellowShip">
+<meta property="og:site_name" content="ArewaDS FellowShip">
 <meta property="og:image:height" content="500">
 <meta property="og:image:width" content="500">
 <meta property="og:locale" content="en-GB">
@@ -119,90 +156,252 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Arewa DataScience Academy</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">about</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Courses</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-courses">    
         <li>
-    <a class="dropdown-item" href="https://github.com/arewadataScience/30-Days-of-Python" rel="" target="">
+    <a class="dropdown-item" href="https://github.com/arewadataScience/30-Days-of-Python">
  <span class="dropdown-text">30 Days of Python</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Machine-Learning" rel="" target="">
+    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Machine-Learning">
  <span class="dropdown-text">Machine Learning</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Deep-Learning" rel="" target="">
+    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Deep-Learning">
  <span class="dropdown-text">Deep Learning</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Kaggle-Challenge" rel="" target="">
+    <a class="dropdown-item" href="https://github.com/arewadataScience/ArewaDS-Kaggle-Challenge">
  <span class="dropdown-text">Kaggle Challenge</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./mentors.html" rel="" target="">
- <span class="menu-text">Mentors</span></a>
+    <a class="nav-link" href="./mentors.html"> 
+<span class="menu-text">Mentors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./fellows.html" rel="" target="">
- <span class="menu-text">Fellows</span></a>
+    <a class="nav-link" href="./fellows.html"> 
+<span class="menu-text">Fellows</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html" rel="" target="">
- <span class="menu-text">posts</span></a>
+    <a class="nav-link" href="./posts.html"> 
+<span class="menu-text">posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html" rel="" target="">
- <span class="menu-text">contact</span></a>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">contact</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/arewadataScience" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/arewadataScience"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/arewadatasc" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/arewadatasc"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -211,7 +410,6 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-
 <style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1691048");</style>
     <style type="text/css">
     /* LOADER */
@@ -1095,12 +1293,13 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 </div></div>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
 
 
 
 <!-- 
-
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -1129,49 +1328,54 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <div class="quarto-listing quarto-listing-container-table" id="listing-Fellows">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-Fellows-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Fellows'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Name
-        </option>
-         <option value="listing-subtitle" data-direction="asc">
-          Current or most previous institution
-        </option>
-         <option value="listing-state" data-direction="asc">
-          States
-        </option>
-         <option value="listing-completed" data-direction="asc">
-          🎓
-        </option>
-     </select>
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-Fellows-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Fellows'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Name
+      </option>
+      <option value="listing-subtitle" data-direction="asc">
+        Current or most previous institution
+      </option>
+      <option value="listing-state" data-direction="asc">
+        States
+      </option>
+      <option value="listing-completed" data-direction="asc">
+        🎓
+      </option>
+    </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-
 <table class="quarto-listing-table table table-hover">
 <thead>
 <tr>
+
 <th>
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
 </th>
+
 <th>
 <a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Current or most previous institution</a>
 </th>
+
 <th>
 <a class="sort" data-sort="listing-state" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">States</a>
 </th>
+
 <th>
 <a class="sort" data-sort="listing-completed" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">🎓</a>
 </th>
+
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1748709879299" data-listing-reading-time-sort="1" data-listing-title-sort="Abdulkarim Muhammad Baba" data-listing-filename-sort="abdulkarim_muhammad_baba.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="0" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Abdulkarim Muhammad Baba" data-listing-filename-sort="abdulkarim_muhammad_baba.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/abdulkarim_muhammad_baba.html" class="title listing-title">Abdulkarim Muhammad Baba</a>
@@ -1185,8 +1389,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="1" data-listing-file-modified-sort="1748709879299" data-listing-reading-time-sort="1" data-listing-title-sort="Lurwanu Abdullahi" data-listing-filename-sort="abdullahi_lurwanu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="1" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Lurwanu Abdullahi" data-listing-filename-sort="abdullahi_lurwanu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/abdullahi_lurwanu.html" class="title listing-title">Lurwanu Abdullahi</a>
@@ -1200,8 +1406,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1748709879299" data-listing-reading-time-sort="1" data-listing-title-sort="Abdulrahaman Yusuf" data-listing-filename-sort="abdulrahaman_yusuf.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="2" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Abdulrahaman Yusuf" data-listing-filename-sort="abdulrahaman_yusuf.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/abdulrahaman_yusuf.html" class="title listing-title">Abdulrahaman Yusuf</a>
@@ -1215,8 +1423,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="3" data-listing-file-modified-sort="1748709879299" data-listing-reading-time-sort="1" data-listing-title-sort="Abubakar Labaran Salisu" data-listing-filename-sort="abubakar_labaran_salisu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="3" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Abubakar Labaran Salisu" data-listing-filename-sort="abubakar_labaran_salisu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/abubakar_labaran_salisu.html" class="title listing-title">Abubakar Labaran Salisu</a>
@@ -1230,8 +1440,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="4" data-listing-file-modified-sort="1748709879299" data-listing-reading-time-sort="1" data-listing-title-sort="Alamin Musa Magaga" data-listing-filename-sort="alamin_musa_magaga.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="4" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Alamin Musa Magaga" data-listing-filename-sort="alamin_musa_magaga.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/alamin_musa_magaga.html" class="title listing-title">Alamin Musa Magaga</a>
@@ -1245,8 +1457,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="5" data-listing-file-modified-sort="1748709879299" data-listing-reading-time-sort="1" data-listing-title-sort="Abubakar Aliyu" data-listing-filename-sort="aliyu_abubakar.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="5" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Abubakar Aliyu" data-listing-filename-sort="aliyu_abubakar.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/aliyu_abubakar.html" class="title listing-title">Abubakar Aliyu</a>
@@ -1260,8 +1474,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="6" data-listing-file-modified-sort="1748709879299" data-listing-reading-time-sort="1" data-listing-title-sort="Aminu Hamza Nababa" data-listing-filename-sort="aminu_hamza_nababa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="6" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Aminu Hamza Nababa" data-listing-filename-sort="aminu_hamza_nababa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/aminu_hamza_nababa.html" class="title listing-title">Aminu Hamza Nababa</a>
@@ -1275,8 +1491,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="7" data-listing-file-modified-sort="1748709879300" data-listing-reading-time-sort="1" data-listing-title-sort="Auwal Abubakar Khalid" data-listing-filename-sort="auwal_abubakar_khalid.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="7" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Auwal Abubakar Khalid" data-listing-filename-sort="auwal_abubakar_khalid.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/auwal_abubakar_khalid.html" class="title listing-title">Auwal Abubakar Khalid</a>
@@ -1290,8 +1508,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="8" data-listing-file-modified-sort="1748709879300" data-listing-reading-time-sort="1" data-listing-title-sort="Auwal Auwal Sulaiman" data-listing-filename-sort="auwal_auwal_sulaiman.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="8" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Auwal Auwal Sulaiman" data-listing-filename-sort="auwal_auwal_sulaiman.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/auwal_auwal_sulaiman.html" class="title listing-title">Auwal Auwal Sulaiman</a>
@@ -1305,8 +1525,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="9" data-listing-file-modified-sort="1748709879300" data-listing-reading-time-sort="1" data-listing-title-sort="Babangida Sani" data-listing-filename-sort="babangida_sani.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="9" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Babangida Sani" data-listing-filename-sort="babangida_sani.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/babangida_sani.html" class="title listing-title">Babangida Sani</a>
@@ -1320,8 +1542,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="10" data-listing-file-modified-sort="1748709879300" data-listing-reading-time-sort="1" data-listing-title-sort="Bala Mairiga Abduljalil" data-listing-filename-sort="bala_mairiga_abduljalil.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="10" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Bala Mairiga Abduljalil" data-listing-filename-sort="bala_mairiga_abduljalil.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/bala_mairiga_abduljalil.html" class="title listing-title">Bala Mairiga Abduljalil</a>
@@ -1335,8 +1559,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="11" data-listing-file-modified-sort="1748709879300" data-listing-reading-time-sort="1" data-listing-title-sort="Faisal Muhammad Adam" data-listing-filename-sort="faisal_muhammad_adam.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="11" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Faisal Muhammad Adam" data-listing-filename-sort="faisal_muhammad_adam.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/faisal_muhammad_adam.html" class="title listing-title">Faisal Muhammad Adam</a>
@@ -1350,8 +1576,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="12" data-listing-file-modified-sort="1748709879300" data-listing-reading-time-sort="1" data-listing-title-sort="Faridah Yusuf Musa" data-listing-filename-sort="faridah_yusuf_musa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="12" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Faridah Yusuf Musa" data-listing-filename-sort="faridah_yusuf_musa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/faridah_yusuf_musa.html" class="title listing-title">Faridah Yusuf Musa</a>
@@ -1365,8 +1593,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="13" data-listing-file-modified-sort="1748709879300" data-listing-reading-time-sort="1" data-listing-title-sort="Faruk Hussain Abdullahi" data-listing-filename-sort="faruk_hussain_abdullahi.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="13" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Faruk Hussain Abdullahi" data-listing-filename-sort="faruk_hussain_abdullahi.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/faruk_hussain_abdullahi.html" class="title listing-title">Faruk Hussain Abdullahi</a>
@@ -1380,8 +1610,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="14" data-listing-file-modified-sort="1748709879300" data-listing-reading-time-sort="1" data-listing-title-sort="Fatima Muhammad Adam" data-listing-filename-sort="fatima_muhammad_adam.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="14" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Fatima Muhammad Adam" data-listing-filename-sort="fatima_muhammad_adam.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/fatima_muhammad_adam.html" class="title listing-title">Fatima Muhammad Adam</a>
@@ -1395,8 +1627,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="15" data-listing-file-modified-sort="1748709879300" data-listing-reading-time-sort="1" data-listing-title-sort="Hamzah Mahmud" data-listing-filename-sort="hamzah_mahmud.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="15" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Hamzah Mahmud" data-listing-filename-sort="hamzah_mahmud.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/hamzah_mahmud.html" class="title listing-title">Hamzah Mahmud</a>
@@ -1410,8 +1644,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="16" data-listing-file-modified-sort="1748709879301" data-listing-reading-time-sort="1" data-listing-title-sort="Hassan Muhammad Adam" data-listing-filename-sort="hassan_muhammad_adam.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="16" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Hassan Muhammad Adam" data-listing-filename-sort="hassan_muhammad_adam.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/hassan_muhammad_adam.html" class="title listing-title">Hassan Muhammad Adam</a>
@@ -1425,8 +1661,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="17" data-listing-file-modified-sort="1748709879301" data-listing-reading-time-sort="1" data-listing-title-sort="Ibrahim Sufiyanu" data-listing-filename-sort="ibrahim_sufiyanu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="17" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Ibrahim Sufiyanu" data-listing-filename-sort="ibrahim_sufiyanu.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/ibrahim_sufiyanu.html" class="title listing-title">Ibrahim Sufiyanu</a>
@@ -1440,8 +1678,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="18" data-listing-file-modified-sort="1748709879301" data-listing-reading-time-sort="1" data-listing-title-sort="Ishaq Hassan" data-listing-filename-sort="ishaq_hassan.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="18" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Ishaq Hassan" data-listing-filename-sort="ishaq_hassan.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/ishaq_hassan.html" class="title listing-title">Ishaq Hassan</a>
@@ -1455,8 +1695,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="19" data-listing-file-modified-sort="1748709879301" data-listing-reading-time-sort="1" data-listing-title-sort="Lukman Aliyu Jibril" data-listing-filename-sort="lukman_aliyu_jibril.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="19" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Lukman Aliyu Jibril" data-listing-filename-sort="lukman_aliyu_jibril.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/lukman_aliyu_jibril.html" class="title listing-title">Lukman Aliyu Jibril</a>
@@ -1470,8 +1712,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="20" data-listing-file-modified-sort="1748709879301" data-listing-reading-time-sort="1" data-listing-title-sort="Mahmud Mahmud Ibrahim" data-listing-filename-sort="mahmud_mahmud_ibrahim.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="20" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Mahmud Mahmud Ibrahim" data-listing-filename-sort="mahmud_mahmud_ibrahim.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/mahmud_mahmud_ibrahim.html" class="title listing-title">Mahmud Mahmud Ibrahim</a>
@@ -1485,8 +1729,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="21" data-listing-file-modified-sort="1748709879301" data-listing-reading-time-sort="1" data-listing-title-sort="Maryam Sabo Abubakar" data-listing-filename-sort="maryam_sabo_abubakar.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="21" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Maryam Sabo Abubakar" data-listing-filename-sort="maryam_sabo_abubakar.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/maryam_sabo_abubakar.html" class="title listing-title">Maryam Sabo Abubakar</a>
@@ -1500,8 +1746,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="22" data-listing-file-modified-sort="1748709879301" data-listing-reading-time-sort="1" data-listing-title-sort="Mohammed Nasiru" data-listing-filename-sort="mohammed_nasiru.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="22" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Mohammed Nasiru" data-listing-filename-sort="mohammed_nasiru.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/mohammed_nasiru.html" class="title listing-title">Mohammed Nasiru</a>
@@ -1515,8 +1763,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="23" data-listing-file-modified-sort="1748709879301" data-listing-reading-time-sort="1" data-listing-title-sort="Mubarak Daha Isa" data-listing-filename-sort="mubarak_daha_isa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="23" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Mubarak Daha Isa" data-listing-filename-sort="mubarak_daha_isa.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/mubarak_daha_isa.html" class="title listing-title">Mubarak Daha Isa</a>
@@ -1530,8 +1780,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="24" data-listing-file-modified-sort="1748709879302" data-listing-reading-time-sort="1" data-listing-title-sort="Muhammad Ibrahim Isah" data-listing-filename-sort="muhammad_ibrahim_isah.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="24" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Muhammad Ibrahim Isah" data-listing-filename-sort="muhammad_ibrahim_isah.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/muhammad_ibrahim_isah.html" class="title listing-title">Muhammad Ibrahim Isah</a>
@@ -1545,8 +1797,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="25" data-listing-file-modified-sort="1748709879302" data-listing-reading-time-sort="1" data-listing-title-sort="Rufa'i Ibrahim Dikko" data-listing-filename-sort="rufai_ibrahim_dikko.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="25" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Rufa'i Ibrahim Dikko" data-listing-filename-sort="rufai_ibrahim_dikko.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/rufai_ibrahim_dikko.html" class="title listing-title">Rufa’i Ibrahim Dikko</a>
@@ -1560,8 +1814,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="26" data-listing-file-modified-sort="1748709879302" data-listing-reading-time-sort="1" data-listing-title-sort="Sani Umar Muhammad" data-listing-filename-sort="sani_umar_muhammad.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="26" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Sani Umar Muhammad" data-listing-filename-sort="sani_umar_muhammad.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/sani_umar_muhammad.html" class="title listing-title">Sani Umar Muhammad</a>
@@ -1575,8 +1831,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="27" data-listing-file-modified-sort="1748709879302" data-listing-reading-time-sort="1" data-listing-title-sort="Tanimu Abdullahi" data-listing-filename-sort="tanimu_abdullahi.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="27" data-listing-file-modified-sort="1748732982146" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Tanimu Abdullahi" data-listing-filename-sort="tanimu_abdullahi.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/tanimu_abdullahi.html" class="title listing-title">Tanimu Abdullahi</a>
@@ -1590,8 +1848,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">✅</span>
 </td>
+
 </tr>
-<tr data-index="28" data-listing-file-modified-sort="1748709879296" data-listing-reading-time-sort="1" data-listing-title-sort="Abdulkadir Abubakar Abubakar" data-listing-filename-sort="1.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="28" data-listing-file-modified-sort="1748732982144" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Abdulkadir Abubakar Abubakar" data-listing-filename-sort="1.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/1.html" class="title listing-title">Abdulkadir Abubakar Abubakar</a>
@@ -1605,8 +1865,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="29" data-listing-file-modified-sort="1748709879296" data-listing-reading-time-sort="1" data-listing-title-sort="Adamu Ibrahim" data-listing-filename-sort="11.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="29" data-listing-file-modified-sort="1748732982144" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Adamu Ibrahim" data-listing-filename-sort="11.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/11.html" class="title listing-title">Adamu Ibrahim</a>
@@ -1620,8 +1882,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="30" data-listing-file-modified-sort="1748709879296" data-listing-reading-time-sort="1" data-listing-title-sort="Deborah Temitope Ajah" data-listing-filename-sort="12.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="30" data-listing-file-modified-sort="1748732982144" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Deborah Temitope Ajah" data-listing-filename-sort="12.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/12.html" class="title listing-title">Deborah Temitope Ajah</a>
@@ -1635,8 +1899,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="31" data-listing-file-modified-sort="1748709879296" data-listing-reading-time-sort="1" data-listing-title-sort="Mahmud Hamzah" data-listing-filename-sort="15.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="31" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Mahmud Hamzah" data-listing-filename-sort="15.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/15.html" class="title listing-title">Mahmud Hamzah</a>
@@ -1650,8 +1916,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="32" data-listing-file-modified-sort="1748709879296" data-listing-reading-time-sort="1" data-listing-title-sort="Ahmed Danjuma Haruna" data-listing-filename-sort="17.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="32" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Ahmed Danjuma Haruna" data-listing-filename-sort="17.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/17.html" class="title listing-title">Ahmed Danjuma Haruna</a>
@@ -1665,8 +1933,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="33" data-listing-file-modified-sort="1748709879296" data-listing-reading-time-sort="1" data-listing-title-sort="Munzali Alhassan" data-listing-filename-sort="19.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="33" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Munzali Alhassan" data-listing-filename-sort="19.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/19.html" class="title listing-title">Munzali Alhassan</a>
@@ -1680,8 +1950,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="34" data-listing-file-modified-sort="1748709879296" data-listing-reading-time-sort="1" data-listing-title-sort="Joshua Samuel Baba" data-listing-filename-sort="2.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="34" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Joshua Samuel Baba" data-listing-filename-sort="2.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/2.html" class="title listing-title">Joshua Samuel Baba</a>
@@ -1695,8 +1967,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="35" data-listing-file-modified-sort="1748709879296" data-listing-reading-time-sort="1" data-listing-title-sort="Alhussain Abdullahi" data-listing-filename-sort="20.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="35" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Alhussain Abdullahi" data-listing-filename-sort="20.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/20.html" class="title listing-title">Alhussain Abdullahi</a>
@@ -1710,8 +1984,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="36" data-listing-file-modified-sort="1748709879296" data-listing-reading-time-sort="1" data-listing-title-sort="Muhammed Kabila Musa" data-listing-filename-sort="25.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="36" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Muhammed Kabila Musa" data-listing-filename-sort="25.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/25.html" class="title listing-title">Muhammed Kabila Musa</a>
@@ -1725,8 +2001,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="37" data-listing-file-modified-sort="1748709879297" data-listing-reading-time-sort="1" data-listing-title-sort="Al'amin Ahmad Muhammad" data-listing-filename-sort="29.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="37" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Al'amin Ahmad Muhammad" data-listing-filename-sort="29.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/29.html" class="title listing-title">Al’amin Ahmad Muhammad</a>
@@ -1740,8 +2018,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="38" data-listing-file-modified-sort="1748709879297" data-listing-reading-time-sort="1" data-listing-title-sort="Umar Sani Muhammad" data-listing-filename-sort="30.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="38" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Umar Sani Muhammad" data-listing-filename-sort="30.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/30.html" class="title listing-title">Umar Sani Muhammad</a>
@@ -1755,8 +2035,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="39" data-listing-file-modified-sort="1748709879297" data-listing-reading-time-sort="1" data-listing-title-sort="Habila Akolo Alaku" data-listing-filename-sort="31.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="39" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Habila Akolo Alaku" data-listing-filename-sort="31.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/31.html" class="title listing-title">Habila Akolo Alaku</a>
@@ -1770,8 +2052,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="40" data-listing-file-modified-sort="1748709879297" data-listing-reading-time-sort="1" data-listing-title-sort="Nur Bala Rabiu" data-listing-filename-sort="34.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="40" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Nur Bala Rabiu" data-listing-filename-sort="34.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/34.html" class="title listing-title">Nur Bala Rabiu</a>
@@ -1785,8 +2069,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="41" data-listing-file-modified-sort="1748709879297" data-listing-reading-time-sort="1" data-listing-title-sort="Rahma Aliyu Yusuf" data-listing-filename-sort="35.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="41" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Rahma Aliyu Yusuf" data-listing-filename-sort="35.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/35.html" class="title listing-title">Rahma Aliyu Yusuf</a>
@@ -1800,8 +2086,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="42" data-listing-file-modified-sort="1748709879297" data-listing-reading-time-sort="1" data-listing-title-sort="Musa Mohammed" data-listing-filename-sort="36.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="42" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Musa Mohammed" data-listing-filename-sort="36.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/36.html" class="title listing-title">Musa Mohammed</a>
@@ -1815,8 +2103,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="43" data-listing-file-modified-sort="1748709879297" data-listing-reading-time-sort="1" data-listing-title-sort="Sufiyanu Ibrahim" data-listing-filename-sort="37.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="43" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Sufiyanu Ibrahim" data-listing-filename-sort="37.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/37.html" class="title listing-title">Sufiyanu Ibrahim</a>
@@ -1830,8 +2120,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="44" data-listing-file-modified-sort="1748709879297" data-listing-reading-time-sort="1" data-listing-title-sort="Bello Abdullahi" data-listing-filename-sort="4.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="44" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Bello Abdullahi" data-listing-filename-sort="4.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/4.html" class="title listing-title">Bello Abdullahi</a>
@@ -1845,8 +2137,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="45" data-listing-file-modified-sort="1748709879297" data-listing-reading-time-sort="1" data-listing-title-sort="Mahmoud Said Ahmad" data-listing-filename-sort="41.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="45" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Mahmoud Said Ahmad" data-listing-filename-sort="41.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/41.html" class="title listing-title">Mahmoud Said Ahmad</a>
@@ -1860,8 +2154,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="46" data-listing-file-modified-sort="1748709879298" data-listing-reading-time-sort="1" data-listing-title-sort="Zara'u Baidu" data-listing-filename-sort="42.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="46" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Zara'u Baidu" data-listing-filename-sort="42.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/42.html" class="title listing-title">Zara’u Baidu</a>
@@ -1875,8 +2171,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="47" data-listing-file-modified-sort="1748709879298" data-listing-reading-time-sort="1" data-listing-title-sort="Ismaila Khamis" data-listing-filename-sort="45.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="47" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Ismaila Khamis" data-listing-filename-sort="45.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/45.html" class="title listing-title">Ismaila Khamis</a>
@@ -1890,8 +2188,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="48" data-listing-file-modified-sort="1748709879298" data-listing-reading-time-sort="1" data-listing-title-sort="Abubakar Mahmud" data-listing-filename-sort="46.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="48" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Abubakar Mahmud" data-listing-filename-sort="46.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/46.html" class="title listing-title">Abubakar Mahmud</a>
@@ -1905,8 +2205,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="49" data-listing-file-modified-sort="1748709879298" data-listing-reading-time-sort="1" data-listing-title-sort="Rufai Zakari Yusuf" data-listing-filename-sort="48.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="49" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Rufai Zakari Yusuf" data-listing-filename-sort="48.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/48.html" class="title listing-title">Rufai Zakari Yusuf</a>
@@ -1920,8 +2222,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="50" data-listing-file-modified-sort="1748709879298" data-listing-reading-time-sort="1" data-listing-title-sort="Zainab Abdulfattah" data-listing-filename-sort="5.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="50" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Zainab Abdulfattah" data-listing-filename-sort="5.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/5.html" class="title listing-title">Zainab Abdulfattah</a>
@@ -1935,8 +2239,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="51" data-listing-file-modified-sort="1748709879298" data-listing-reading-time-sort="1" data-listing-title-sort="Hassan Adamu" data-listing-filename-sort="50.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="51" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Hassan Adamu" data-listing-filename-sort="50.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/50.html" class="title listing-title">Hassan Adamu</a>
@@ -1950,8 +2256,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="52" data-listing-file-modified-sort="1748709879298" data-listing-reading-time-sort="1" data-listing-title-sort="Umar Abdulkadir" data-listing-filename-sort="51.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="52" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Umar Abdulkadir" data-listing-filename-sort="51.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/51.html" class="title listing-title">Umar Abdulkadir</a>
@@ -1965,8 +2273,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="53" data-listing-file-modified-sort="1748709879298" data-listing-reading-time-sort="1" data-listing-title-sort="Zahra'u Bello Baidu" data-listing-filename-sort="53.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="53" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Zahra'u Bello Baidu" data-listing-filename-sort="53.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/53.html" class="title listing-title">Zahra’u Bello Baidu</a>
@@ -1980,8 +2290,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="54" data-listing-file-modified-sort="1748709879298" data-listing-reading-time-sort="1" data-listing-title-sort="Auwal Abdullahi" data-listing-filename-sort="55.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="54" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Auwal Abdullahi" data-listing-filename-sort="55.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/55.html" class="title listing-title">Auwal Abdullahi</a>
@@ -1995,8 +2307,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="55" data-listing-file-modified-sort="1748709879299" data-listing-reading-time-sort="1" data-listing-title-sort="Abdulrazak Auwal" data-listing-filename-sort="7.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="55" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Abdulrazak Auwal" data-listing-filename-sort="7.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/7.html" class="title listing-title">Abdulrazak Auwal</a>
@@ -2010,8 +2324,10 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
+
 </tr>
-<tr data-index="56" data-listing-file-modified-sort="1748709879299" data-listing-reading-time-sort="1" data-listing-title-sort="Hassan Sani" data-listing-filename-sort="8.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+
+<tr data-index="56" data-listing-file-modified-sort="1748732982145" data-listing-reading-time-sort="1" data-listing-word-count-sort="55" data-listing-title-sort="Hassan Sani" data-listing-filename-sort="8.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./people/fellows/ml-1/8.html" class="title listing-title">Hassan Sani</a>
@@ -2025,380 +2341,435 @@ gtag('config', 'G-M701ZTGPSE', { 'anonymize_ip': true});
 <td>
 <span class="listing-completed">❌</span>
 </td>
-</tr>
-</tbody>
 
+</tr>
+
+</tbody>
 </table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 <nav id="Fellows-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
         }
       }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
       return false;
     }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  let localAlternateSentinel = 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-    }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
         }
-      }
-      return codeEl.innerText;
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
     }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
     }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/arewadatascience\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
       });
     }
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/arewadatascience\.github\.io");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-});
-</script>
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
+
 
 
 
