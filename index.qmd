@@ -56,7 +56,7 @@ share:
 
 
 ::: {.g-col-12}
-<marquee><span style="color: blue;">  Application to join Arewa Data Science fellowship is closed! However, you can join our Telegram group for updates: <a href="https://t.me/+vGZvQdggp1A4NzNk" style="color: blue;"> click to join</a>!</span></marquee>
+<marquee><span style="color: blue;">  Application to join Arewa Data Science fellowship is closed! However, you can join our Discord server for updates: <a href=" https://discord.gg/UYxdqJD79C" style="color: blue;"> click to join</a>!</span></marquee>
 
 <img src="/images/Arewa2.0.png" alt="Alt text" class="lightbox profile-pic" style="width:100%; margin:auto;">
 <!-- ![](/images/arewads.jpg){.lightbox}{.profile-pic fig-align="center" width="70%"} -->
