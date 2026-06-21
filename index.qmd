@@ -51,7 +51,7 @@ share:
 
 
 ::: {.g-col-12}
-[Free Data Science Fellowship]{.home-header}
+[Arewa Data Science Summer School will take place on August 10-24]{.home-header}
 :::
 
 
